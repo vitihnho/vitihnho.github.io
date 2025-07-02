@@ -4,175 +4,99 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ofertas Imperdíveis - Mercado Livre</title>
+  <meta name="description" content="PromoFinderML - Ofertas por departamento">
+  <title>Departamentos | PromoFinderML</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Montserrat', sans-serif;
       background-color: #f8f9fa;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     header {
-      background-color: #ffe600;
-      padding: 40px 0;
+      background-color: #1f1f1f;
+      color: white;
+      padding: 2rem;
       text-align: center;
     }
-    header h1 {
-      font-size: 2.5rem;
-      font-weight: 600;
-      color: #333;
-    }
-    .card {
-      margin-bottom: 30px;
-      border: none;
-    }
-    .card img {
-      max-height: 250px;
-      object-fit: contain;
-      padding: 20px;
-    }
-    .card-title {
-      font-size: 1.1rem;
-      font-weight: 600;
-    }
-    .btn-primary {
-      background-color: #3483fa;
-      border: none;
-    }
-    footer {
-      margin-top: 40px;
-      background-color: #ffe600;
+    .departamento-card {
+      background-color: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      transition: transform 0.2s ease;
+      height: 100%;
       text-align: center;
-      padding: 15px 0;
-      font-size: 0.9rem;
+      border: 2px solid #ffc107;
+    }
+    .departamento-card:hover {
+      transform: scale(1.03);
+      background-color: #fffbea;
+    }
+    .departamento-btn {
+      background-color: #ffc107;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      margin-top: 1rem;
+    }
+    .departamento-btn:hover {
+      background-color: #e0a800;
+      color: #fff;
+    }
+    .footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: #777;
+      margin-top: 3rem;
+      padding-bottom: 2rem;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
     }
   </style>
 </head>
+
 <body>
 
 <header>
-  <h1>🔍 PromoFinderML</h1>
-  <p>Descubra ofertas imperdíveis do Mercado Livre com tecnologia Python</p>
+  <h1>PromoFinder 🚀</h1>
+  <p class="lead">Escolha um departamento e encontre ofertas incríveis!</p>
 </header>
 
-<div class="container py-4">
-  <div class="row">
-    
-<div class="col-md-4">
-  <div class="card shadow-sm">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_777338-MLB85058385488_052025-O-balanca-de-cozinha-digital-inox-ate-10kg-alimentos-portatil.webp" class="card-img-top" alt="Balança De Cozinha Digital Inox Até 10kg Alimentos Portátil">
-    <div class="card-body">
-      <h5 class="card-title">Balança De Cozinha Digital Inox Até 10kg Alimentos Portátil</h5>
-      <p class="card-text">Preço: R$ 39,68</p>
-      <a href="https://mercadolivre.com/sec/19Ag5fj" target="_blank" class="btn btn-primary">Comprar Agora</a>
+<main class="container mt-5">
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <div class="departamento-card h-100">
+        <h4>🧴 Beleza e Cuidado</h4>
+        <p>Cosméticos, skincare, autocuidado e mais.</p>
+        <a href="pagina_cuidados_beleza.html" class="btn departamento-btn w-100">Ver ofertas</a>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-md-4">
-  <div class="card shadow-sm">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_934520-MLB72391338436_102023-AB-boticario-men-only-deo-colnia-masculino-100ml.webp" class="card-img-top" alt="Boticário Men Only Deo Colônia Masculino 100ml">
-    <div class="card-body">
-      <h5 class="card-title">Boticário Men Only Deo Colônia Masculino 100ml</h5>
-      <p class="card-text">Preço: R$ 77,45</p>
-      <a href="https://mercadolivre.com/sec/2riKzqZ" target="_blank" class="btn btn-primary">Comprar Agora</a>
+    <div class="col-md-4">
+      <div class="departamento-card h-100">
+        <h4>🏋️ Fitness</h4>
+        <p>Suplementos, equipamentos e estilo de vida saudável.</p>
+        <a href="pagina_fitness.html" class="btn departamento-btn w-100">Ver ofertas</a>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class="col-md-4">
-  <div class="card shadow-sm">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_737936-MLA73022595039_112023-AB.webp" class="card-img-top" alt="Men Only Des. Colônia, 100ml Volume Da Unidade 100 Ml">
-    <div class="card-body">
-      <h5 class="card-title">Men Only Des. Colônia, 100ml Volume Da Unidade 100 Ml</h5>
-      <p class="card-text">Preço: R$ 77,45</p>
-      <a href="https://mercadolivre.com/sec/1nhQtoG" target="_blank" class="btn btn-primary">Comprar Agora</a>
+    <div class="col-md-4">
+      <div class="departamento-card h-100">
+        <h4>💻 Tecnologia</h4>
+        <p>Gadgets, acessórios e inovação digital.</p>
+        <a href="pagina_tecnologia.html" class="btn departamento-btn w-100">Ver ofertas</a>
+      </div>
     </div>
-  </div>
-</div>
-
-<div class="col-md-4">
-  <div class="card shadow-sm">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_759928-MLU75592406885_042024-AB.webp" class="card-img-top" alt="Escova Secadora Britânia Bes08p 1300w">
-    <div class="card-body">
-      <h5 class="card-title">Escova Secadora Britânia Bes08p 1300w</h5>
-      <p class="card-text">Preço: R$ 98,89</p>
-      <a href="https://mercadolivre.com/sec/2vgGZ9F" target="_blank" class="btn btn-primary">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4">
-  <div class="card shadow-sm">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_658940-MLA84626184380_052025-AB.webp" class="card-img-top" alt="Maquina Maquininha De Cortar Cabelo Barbeador Eletrico Aparador De Pelos Acabamento Dragão Buda Profissional Kamufla">
-    <div class="card-body">
-      <h5 class="card-title">Maquina Maquininha De Cortar Cabelo Barbeador Eletrico Aparador De Pelos Acabamento Dragão Buda Profissional Kamufla</h5>
-      <p class="card-text">Preço: R$ 20,98</p>
-      <a href="https://mercadolivre.com/sec/17j8Sds" target="_blank" class="btn btn-primary">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4">
-  <div class="card shadow-sm">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_602979-MLB82530156987_022025-AB-gloss-labial-liphoney-franciny-ehlke-brilho-irresistivel.webp" class="card-img-top" alt="Gloss Labial Liphoney Franciny Ehlke Brilho Irresistível">
-    <div class="card-body">
-      <h5 class="card-title">Gloss Labial Liphoney Franciny Ehlke Brilho Irresistível</h5>
-      <p class="card-text">Preço: R$ 77,92</p>
-      <a href="https://mercadolivre.com/sec/1w8N3JK" target="_blank" class="btn btn-primary">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4">
-  <div class="card shadow-sm">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_791256-MLA80372840541_112024-O.webp" class="card-img-top" alt="Papel Higiênico Vip Leve 24 E Pague 22 Personal">
-    <div class="card-body">
-      <h5 class="card-title">Papel Higiênico Vip Leve 24 E Pague 22 Personal</h5>
-      <p class="card-text">Preço: R$ 32,99</p>
-      <a href="https://mercadolivre.com/sec/1bXfTNr" target="_blank" class="btn btn-primary">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4">
-  <div class="card shadow-sm">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_896524-MLB71628162724_092023-O-kit-de-pinceis-real-techniques-travel-fantasy-mini-brush.webp" class="card-img-top" alt="Kit De Pincéis Real Techniques Travel Fantasy Mini Brush">
-    <div class="card-body">
-      <h5 class="card-title">Kit De Pincéis Real Techniques Travel Fantasy Mini Brush</h5>
-      <p class="card-text">Preço: R$ 82,68</p>
-      <a href="https://mercadolivre.com/sec/1hAGoUu" target="_blank" class="btn btn-primary">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4">
-  <div class="card shadow-sm">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_749924-MLU77149018915_062024-O.webp" class="card-img-top" alt="Papel Higiênico Familiar Folha Dupla 24 Rolos">
-    <div class="card-body">
-      <h5 class="card-title">Papel Higiênico Familiar Folha Dupla 24 Rolos</h5>
-      <p class="card-text">Preço: R$ 29,63</p>
-      <a href="https://mercadolivre.com/sec/1YNYNfS" target="_blank" class="btn btn-primary">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4">
-  <div class="card shadow-sm">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_853220-MLU72628124656_112023-O.webp" class="card-img-top" alt="Alicate Cutícula Mundial 777 Profissional Aço Inox">
-    <div class="card-body">
-      <h5 class="card-title">Alicate Cutícula Mundial 777 Profissional Aço Inox</h5>
-      <p class="card-text">Preço: R$ 29,35</p>
-      <a href="https://mercadolivre.com/sec/1iRuX6h" target="_blank" class="btn btn-primary">Comprar Agora</a>
-    </div>
-  </div>
-</div>
 
   </div>
-</div>
+</main>
 
-<footer>
-  <p>Feito com 🐍 Python | Dados via WebScrapping da Página do Mercado Livre</p>
+<footer class="footer">
+  <p>Desenvolvido por Victor com ❤️ e Python. Dados extraídos automaticamente via WebScraping.</p>
+  <p><a href="https://chat.whatsapp.com/Lckq2NTpiNGLokKJxfgv9h">Receba ofertas em primeira mão</a></p>
 </footer>
 
 </body>
