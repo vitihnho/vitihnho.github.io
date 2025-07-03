@@ -51,245 +51,263 @@
   <a href="index.html" class="btn btn-light mt-3">← Voltar para a página inicial</a>
 </header>
 
+<section class="container my-4">
+  <div class="row g-3 align-items-center">
+    <div class="col-md-3">
+      <div class="input-group">
+        <span class="input-group-text bg-white">🔍</span>
+        <input type="text" id="filtroNome" class="form-control" placeholder="Filtrar por nome">
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="input-group">
+        <span class="input-group-text bg-white">💰</span>
+        <input type="number" id="filtroPrecoMin" class="form-control" placeholder="Preço mín.">
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="input-group">
+        <span class="input-group-text bg-white">💵</span>
+        <input type="number" id="filtroPrecoMax" class="form-control" placeholder="Preço máx.">
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="input-group">
+        <span class="input-group-text bg-white">📦</span>
+        <select id="filtroSubcategoria" class="form-select">
+          <option value="">Todas as subcategorias</option>
+          <option value="Compressores de Ar">Compressores de Ar</option>
+<option value="Recipientes Térmicos">Recipientes Térmicos</option>
+<option value="Saúde">Saúde</option>
+<option value="Suplementos">Suplementos</option>
+<option value="Suplementos Alimentares">Suplementos Alimentares</option>
+<option value="Suplementos e Shakers">Suplementos e Shakers</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <main class="container mt-5">
   <div class="row">
     
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_744621-MLA86664171278_062025-E.webp" alt="Creatina Max Titanium Monohidratada Em Pó Pote 300g Creatina Po Sem Sabor" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Saúde">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_919767-MLU77243399105_062024-O.webp" alt="Creatina Monohidratada Em Pote 3000mg 100% Pura Dark Lab" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Creatina Monohidratada Em Pote 3000mg 100% Pura Dark Lab</h5>
+      <p class="card-text"><strong>R$ 49.19</strong></p>
+      <a href="https://mercadolivre.com/sec/2t2BkHy" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Suplementos">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_744621-MLA86664171278_062025-O.webp" alt="Creatina Max Titanium Monohidratada Em Pó Pote 300g Creatina Po Sem Sabor" class="produto-img card-img-top">
     <div class="card-body">
       <h5 class="card-title">Creatina Max Titanium Monohidratada Em Pó Pote 300g Creatina Po Sem Sabor</h5>
-      <p class="card-text"><strong>R$ 48.42</strong></p>
-      
+      <p class="card-text"><strong>R$ 48.45</strong></p>
       <a href="https://mercadolivre.com/sec/2mwWF5U" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_782708-MLA74808091421_022024-E.webp" alt="Pasta De Amendoim Com Whey Protein Bueníssimo 600g Dr. Peanut" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Suplementos Alimentares">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_757501-MLA82770472561_022025-O.webp" alt="Creatina 100% Pura 150g Integralmédica" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Creatina 100% Pura 150g Integralmédica</h5>
+      <p class="card-text"><strong>R$ 36.41</strong></p>
+      <a href="https://mercadolivre.com/sec/1AQtUnj" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Suplementos e Shakers">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_782708-MLA74808091421_022024-O.webp" alt="Pasta De Amendoim Com Whey Protein Bueníssimo 600g Dr. Peanut" class="produto-img card-img-top">
     <div class="card-body">
       <h5 class="card-title">Pasta De Amendoim Com Whey Protein Bueníssimo 600g Dr. Peanut</h5>
-      <p class="card-text"><strong>R$ 45.59</strong></p>
-      
+      <p class="card-text"><strong>R$ 41.99</strong></p>
       <a href="https://mercadolivre.com/sec/23d7V9q" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_662812-MLA47948821946_102021-E.webp" alt="Nutri Whey Protein Baunilha Pote 900g Integralmédica" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Saúde">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_808151-MLA80559783970_112024-O.webp" alt="Nutri Whey Protein Pouch Chocolate 900g Integralmédica" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Nutri Whey Protein Baunilha Pote 900g Integralmédica</h5>
-      <p class="card-text"><strong>R$ 59.76</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/25oK4Q7" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Nutri Whey Protein Pouch Chocolate 900g Integralmédica</h5>
+      <p class="card-text"><strong>R$ 51.90</strong></p>
+      <a href="https://mercadolivre.com/sec/1Tmxn1v" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_650510-MLA82860992622_032025-E.webp" alt="Whey Protein 100% Concentrado Pote 900g Sabor Morango - Ftw" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Suplementos Alimentares">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_784734-MLA83551448114_042025-O.webp" alt="Whey Protein 100% Concentrado Refil 900g Sabor Morango - Ftw" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Whey Protein 100% Concentrado Pote 900g Sabor Morango - Ftw</h5>
-      <p class="card-text"><strong>R$ 109.00</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/2jP9J71" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Whey Protein 100% Concentrado Refil 900g Sabor Morango - Ftw</h5>
+      <p class="card-text"><strong>R$ 99.99</strong></p>
+      <a href="https://mercadolivre.com/sec/1LMfHhU" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_937987-MLU70064979203_062023-E.webp" alt="Suplemento Tasty Whey 3w Gourmet Whey Protein Adaptogen Science Pote 900g Sabor Doce De Leite" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Suplementos Alimentares">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_847173-MLA84477165540_052025-O.webp" alt="Suplemento Tasty Whey 3w Gourmet Whey Protein Adaptogen Science Pote 900g Sabor Leite Condensado" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Suplemento Tasty Whey 3w Gourmet Whey Protein Adaptogen Science Pote 900g Sabor Doce De Leite</h5>
-      <p class="card-text"><strong>R$ 153.00</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/1YE1YQ8" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Suplemento Tasty Whey 3w Gourmet Whey Protein Adaptogen Science Pote 900g Sabor Leite Condensado</h5>
+      <p class="card-text"><strong>R$ 160.30</strong></p>
+      <a href="https://mercadolivre.com/sec/2QvCKe8" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_768987-MLA86986393905_062025-E.webp" alt="Creatina Monohidratada 300g - Max Titanium Sem Sabor - Massa Muscular" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Creatina Monohidratada 300g - Max Titanium Sem Sabor - Massa Muscular</h5>
-      <p class="card-text"><strong>R$ 51.00</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/2VhTTiA" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_814264-MLA84625375604_052025-E.webp" alt="Suplemento Em Pó Pre Treino Pre Workout Pote 300g Sabor Frutas Vermelhas Ftw - Diabo Verde" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Suplementos e Shakers">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_814264-MLA84625375604_052025-O.webp" alt="Suplemento Em Pó Pre Treino Pre Workout Pote 300g Sabor Frutas Vermelhas Ftw - Diabo Verde" class="produto-img card-img-top">
     <div class="card-body">
       <h5 class="card-title">Suplemento Em Pó Pre Treino Pre Workout Pote 300g Sabor Frutas Vermelhas Ftw - Diabo Verde</h5>
       <p class="card-text"><strong>R$ 65.00</strong></p>
-      
       <a href="https://mercadolivre.com/sec/2Bgva7H" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_912605-MLA81187981975_122024-E.webp" alt="Kit 2 Suplemento Whey Protein Isolado Iso Protein Blend Complex Xpro Pó Sabor Baunilha Pote De 2kg" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Suplementos Alimentares">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_971351-MLA80864918246_122024-O.webp" alt="Whey 100% Hd Black Skull - 900g (wpc, Wpi E Wph) Caveira Pre Sabor Chocolate" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Kit 2 Suplemento Whey Protein Isolado Iso Protein Blend Complex Xpro Pó Sabor Baunilha Pote De 2kg</h5>
-      <p class="card-text"><strong>R$ 168.00</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/157toZZ" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Whey 100% Hd Black Skull - 900g (wpc, Wpi E Wph) Caveira Pre Sabor Chocolate</h5>
+      <p class="card-text"><strong>R$ 127.00</strong></p>
+      <a href="https://mercadolivre.com/sec/1qgGp5M" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_853043-MLA47755823198_102021-E.webp" alt="Whey 100% Pure Pouch 900g Baunilha Integralmédica" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Suplementos Alimentares">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_810625-MLA52733606403_122022-O.webp" alt="Whey Protein Isolado Iso Blend Complex 2kg Pretorian" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Whey 100% Pure Pouch 900g Baunilha Integralmédica</h5>
-      <p class="card-text"><strong>R$ 117.80</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/2CR3Ee9" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Whey Protein Isolado Iso Blend Complex 2kg Pretorian</h5>
+      <p class="card-text"><strong>R$ 105.00</strong></p>
+      <a href="https://mercadolivre.com/sec/1Ee1Rui" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_929515-MLB50612197080_072022-E.webp" alt="Top Whey Bar - Caixa C/12 Unidades - Max Titanium Sabor Doce De Leite" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Saúde">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_878788-MLU72576665582_112023-O.webp" alt="Whey 100% Pure Pouch 900g Cookies And Cream Integralmédica" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Top Whey Bar - Caixa C/12 Unidades - Max Titanium Sabor Doce De Leite</h5>
-      <p class="card-text"><strong>R$ 56.44</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/1wV96qX" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Whey 100% Pure Pouch 900g Cookies And Cream Integralmédica</h5>
+      <p class="card-text"><strong>R$ 112.50</strong></p>
+      <a href="https://mercadolivre.com/sec/1asRMRF" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_896086-MLA84343416609_052025-E.webp" alt="Bomba De Ar Car Air Pump Mini Compressor Portátil Calibra Encher Pneu De Carro Bike Moto Cor Preto Usb" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Compressores de Ar">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_896086-MLA84343416609_052025-O.webp" alt="Bomba De Ar Car Air Pump Mini Compressor Portátil Calibra Encher Pneu De Carro Bike Moto Cor Preto Usb" class="produto-img card-img-top">
     <div class="card-body">
       <h5 class="card-title">Bomba De Ar Car Air Pump Mini Compressor Portátil Calibra Encher Pneu De Carro Bike Moto Cor Preto Usb</h5>
-      <p class="card-text"><strong>R$ 73.40</strong></p>
-      
+      <p class="card-text"><strong>R$ 72.00</strong></p>
       <a href="https://mercadolivre.com/sec/2n775YG" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_863446-MLA86790962029_062025-E.webp" alt="Suplemento En Pó Max Titanium Proteínas Proteínas Sabor Morango X 900g" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Saúde">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_863446-MLA86790962029_062025-O.webp" alt="Suplemento En Pó Max Titanium Proteínas Proteínas Sabor Morango X 900g" class="produto-img card-img-top">
     <div class="card-body">
       <h5 class="card-title">Suplemento En Pó Max Titanium Proteínas Proteínas Sabor Morango X 900g</h5>
       <p class="card-text"><strong>R$ 120.00</strong></p>
-      
       <a href="https://mercadolivre.com/sec/18hCnvc" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_967421-MLA82553343283_022025-E.webp" alt="Hipercalórico Anabolic Mass 28500 3kg Profit Labs Sabor Morango" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Suplementos Alimentares">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_737475-MLA81103480845_122024-O.webp" alt="Omegafor Plus 120 Cápsulas Ômega 3 Vitafor" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Omegafor Plus 120 Cápsulas Ômega 3 Vitafor</h5>
+      <p class="card-text"><strong>R$ 116.00</strong></p>
+      <a href="https://mercadolivre.com/sec/1JdiRMd" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Suplementos e Shakers">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_967421-MLA82553343283_022025-O.webp" alt="Hipercalórico Anabolic Mass 28500 3kg Profit Labs Sabor Morango" class="produto-img card-img-top">
     <div class="card-body">
       <h5 class="card-title">Hipercalórico Anabolic Mass 28500 3kg Profit Labs Sabor Morango</h5>
       <p class="card-text"><strong>R$ 74.90</strong></p>
-      
       <a href="https://mercadolivre.com/sec/2MdCpT4" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_655828-MLU79103280299_092024-E.webp" alt="Suplemento Em Pó Black Skull Caveira Preta Turbo Laranja Em Pote 300g" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Suplementos Alimentares">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_881471-MLU76944368957_062024-O.webp" alt="Creatina Turbo Refil 1kg Black Skull" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Suplemento Em Pó Black Skull Caveira Preta Turbo Laranja Em Pote 300g</h5>
-      <p class="card-text"><strong>R$ 45.36</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/23A9pDT" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Creatina Turbo Refil 1kg Black Skull</h5>
+      <p class="card-text"><strong>R$ 64.80</strong></p>
+      <a href="https://mercadolivre.com/sec/2nufSJg" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_789435-MLA86664778256_062025-E.webp" alt="Creatina 300g Pura 100% Monohidratada Max Titanium Sabor Sem Sabor" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Suplementos">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_616412-MLA84850497333_052025-O.webp" alt="Whey Protein Concentrado - 1,8 Kg Dux Nutrition Sabor Morango" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Creatina 300g Pura 100% Monohidratada Max Titanium Sabor Sem Sabor</h5>
-      <p class="card-text"><strong>R$ 52.90</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/2yBgKjZ" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Whey Protein Concentrado - 1,8 Kg Dux Nutrition Sabor Morango</h5>
+      <p class="card-text"><strong>R$ 327.00</strong></p>
+      <a href="https://mercadolivre.com/sec/1jJ3Bp4" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_962050-MLA84543057992_052025-E.webp" alt="Whey Protein Concentrado Pote 900g Sabor Morango Dux Nutrition" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Saúde">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_662472-MLU75593879675_042024-O.webp" alt="Suplemento En Pó Fn Forbis Proteínas Sabor Chocolate Trufado X 907g" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Whey Protein Concentrado Pote 900g Sabor Morango Dux Nutrition</h5>
-      <p class="card-text"><strong>R$ 170.60</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/12r79Lw" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_979969-MLA47793951872_102021-E.webp" alt="Suplemento En Pó Fn Forbis Proteínas Sabor Milkshake De Morango X 907g" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Suplemento En Pó Fn Forbis Proteínas Sabor Milkshake De Morango X 907g</h5>
+      <h5 class="card-title">Suplemento En Pó Fn Forbis Proteínas Sabor Chocolate Trufado X 907g</h5>
       <p class="card-text"><strong>R$ 41.00</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/2PLh3SD" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <a href="https://mercadolivre.com/sec/17ioR4z" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_824212-MLU74827631033_022024-E.webp" alt="Garrafa Térmica Vidro Lúmina 1,8l Para Café Ou Chá Termolar Cor Cinza" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Recipientes Térmicos">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_638426-MLU74988045248_032024-O.webp" alt="Garrafa Térmica De Pressão 1,8 Litro Inox Lúmina Termolar" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Garrafa Térmica Vidro Lúmina 1,8l Para Café Ou Chá Termolar Cor Cinza</h5>
-      <p class="card-text"><strong>R$ 177.64</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/2GuGv8G" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Garrafa Térmica De Pressão 1,8 Litro Inox Lúmina Termolar</h5>
+      <p class="card-text"><strong>R$ 103.95</strong></p>
+      <a href="https://mercadolivre.com/sec/1m2Jk81" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_972254-MLA82605106912_032025-E.webp" alt="Protein Crisp Bar Creme De Coco 12 Und Integralmédica" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Suplementos Alimentares">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_847662-MLU78936678451_092024-O.webp" alt="Barra De Proteína Crisp Bar 12 Unidades - Duo Crunch - Integralmédica" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Protein Crisp Bar Creme De Coco 12 Und Integralmédica</h5>
-      <p class="card-text"><strong>R$ 73.10</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/1iTWv2s" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_810470-MLU77730934806_072024-E.webp" alt="Profit Laboratórios Isolate Protein Mix Refil 900g - Profit Sabor Chocolate" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Profit Laboratórios Isolate Protein Mix Refil 900g - Profit Sabor Chocolate</h5>
-      <p class="card-text"><strong>R$ 64.98</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/2QUzT4m" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Barra De Proteína Crisp Bar 12 Unidades - Duo Crunch - Integralmédica</h5>
+      <p class="card-text"><strong>R$ 80.77</strong></p>
+      <a href="https://mercadolivre.com/sec/29LwreB" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
@@ -303,4 +321,5 @@
 </footer>
 
 </body>
+<script src="filtros.js"></script>
 </html>

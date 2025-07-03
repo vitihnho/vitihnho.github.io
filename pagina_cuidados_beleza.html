@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="PromoFinderML - Ofertas em Beleza e Cuidado">
-  <title>Beleza e Cuidado | PromoFinderML</title>
+  <meta name="description" content="PromoFinderML - Ofertas em Cuidados e Beleza">
+  <title>Cuidados e Beleza | PromoFinderML</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
@@ -46,310 +46,276 @@
 <body>
 
 <header>
-  <h1>Beleza e Cuidado 🛍️</h1>
-  <p class="lead">Ofertas selecionadas para você em Beleza e Cuidado.</p>
+  <h1>Cuidados e Beleza 🛍️</h1>
+  <p class="lead">Ofertas selecionadas para você em Cuidados e Beleza.</p>
   <a href="index.html" class="btn btn-light mt-3">← Voltar para a página inicial</a>
 </header>
+
+<section class="container my-4">
+  <div class="row g-3 align-items-center">
+    <div class="col-md-3">
+      <div class="input-group">
+        <span class="input-group-text bg-white">🔍</span>
+        <input type="text" id="filtroNome" class="form-control" placeholder="Filtrar por nome">
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="input-group">
+        <span class="input-group-text bg-white">💰</span>
+        <input type="number" id="filtroPrecoMin" class="form-control" placeholder="Preço mín.">
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="input-group">
+        <span class="input-group-text bg-white">💵</span>
+        <input type="number" id="filtroPrecoMax" class="form-control" placeholder="Preço máx.">
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="input-group">
+        <span class="input-group-text bg-white">📦</span>
+        <select id="filtroSubcategoria" class="form-select">
+          <option value="">Todas as subcategorias</option>
+          <option value="Alicates de Unhas">Alicates de Unhas</option>
+<option value="Beleza e Cuidado Pessoal">Beleza e Cuidado Pessoal</option>
+<option value="Brilho Labial">Brilho Labial</option>
+<option value="Cuidado Facial">Cuidado Facial</option>
+<option value="Cuidado do Corpo">Cuidado do Corpo</option>
+<option value="Cuidados com a Pele">Cuidados com a Pele</option>
+<option value="Delineadores para Sobrancelhas">Delineadores para Sobrancelhas</option>
+<option value="Escovas Alisadoras para Barba">Escovas Alisadoras para Barba</option>
+<option value="Escovas Elétricas">Escovas Elétricas</option>
+<option value="Papéis Higiênicos">Papéis Higiênicos</option>
+<option value="Pranchas de Cabelo">Pranchas de Cabelo</option>
+<option value="Protetores e Bloqueadores">Protetores e Bloqueadores</option>
+<option value="Secadores de Cabelo">Secadores de Cabelo</option>
+<option value="Shampoos e Condicionadores">Shampoos e Condicionadores</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <main class="container mt-5">
   <div class="row">
     
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_855542-MLB76787545118_062024-E-kit-facial-skincare-mousse-micelar-c-espuma-rosa-mosqueta.webp" alt="Kit Facial Skincare + Mousse Micelar C Espuma Rosa Mosqueta" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Papéis Higiênicos">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_885266-MLA82666101939_022025-O.webp" alt="Papel Higiênico Neve Supreme Leve 32 Pague 28 - 32 Rolos" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Kit Facial Skincare + Mousse Micelar C Espuma Rosa Mosqueta</h5>
-      <p class="card-text"><strong>R$ 47.50</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/2qjmN8u" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Papel Higiênico Neve Supreme Leve 32 Pague 28 - 32 Rolos</h5>
+      <p class="card-text"><strong>R$ 78.90</strong></p>
+      <a href="https://mercadolivre.com/sec/2ab8ydN" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_828395-MLA80044509339_102024-E-kit-dia-a-dia-pitaya-esfoliante-e-hidratante-labotrat.webp" alt="Kit Dia A Dia Pitaya Esfoliante E Hidratante Labotrat" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_737197-MLA81834846859_012025-O.webp" alt="Creme Reparador Cicaplast Baume B5+ 20ml La Roche-posay" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Kit Dia A Dia Pitaya Esfoliante E Hidratante Labotrat</h5>
-      <p class="card-text"><strong>R$ 49.90</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/1u31aBN" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Creme Reparador Cicaplast Baume B5+ 20ml La Roche-posay</h5>
+      <p class="card-text"><strong>R$ 33.80</strong></p>
+      <a href="https://mercadolivre.com/sec/2j5cU21" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_709120-MLA82085807972_022025-E.webp" alt="Kit Skincare Cuidados Facial Cravos E Espinhas - Ricca" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Cuidado do Corpo">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_994628-MLU78867835193_092024-O.webp" alt="Loção hidratante Com Ácido Hialurônico 473ml Cerave" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Kit Skincare Cuidados Facial Cravos E Espinhas - Ricca</h5>
-      <p class="card-text"><strong>R$ 46.45</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/1aNLy4u" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Loção hidratante Com Ácido Hialurônico 473ml Cerave</h5>
+      <p class="card-text"><strong>R$ 86.80</strong></p>
+      <a href="https://mercadolivre.com/sec/2U7hLso" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_966814-MLU74859781834_032024-E.webp" alt="Creme De Massagem Corporal Neutro Sem Perfurme Hidramais 1kg" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Papéis Higiênicos">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_690351-MLA74651547766_022024-O.webp" alt="Papel Higiênico Neve Toque Da Seda Folha Dupla 30 M De 32 Un" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Creme De Massagem Corporal Neutro Sem Perfurme Hidramais 1kg</h5>
-      <p class="card-text"><strong>R$ 46.41</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/2VXYqgq" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Papel Higiênico Neve Toque Da Seda Folha Dupla 30 M De 32 Un</h5>
+      <p class="card-text"><strong>R$ 64.96</strong></p>
+      <a href="https://mercadolivre.com/sec/15SVGW6" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_878556-MLU76831381773_062024-E.webp" alt="kit 50 máscara desidratada comprimido compactada" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Escovas Elétricas">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_810662-MLB46888095986_072021-O.webp" alt="Escova Secadora Britânia Soft Bec07r 3 Em 1 1300w" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">kit 50 máscara desidratada comprimido compactada</h5>
-      <p class="card-text"><strong>R$ 19.12</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/28e5n5X" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Escova Secadora Britânia Soft Bec07r 3 Em 1 1300w</h5>
+      <p class="card-text"><strong>R$ 108.53</strong></p>
+      <a href="https://mercadolivre.com/sec/1sFYGxk" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_972553-MLA80114246799_102024-E.webp" alt="Hidratante Labial Carmed Hello Kitty Torta Maça 10g" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Brilho Labial">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_633929-MLA84547546234_052025-O.webp" alt="Glosslicious Kit Fran - Fran By Franciny Elkhe" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Hidratante Labial Carmed Hello Kitty Torta Maça 10g</h5>
-      <p class="card-text"><strong>R$ 39.27</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/2MB9GAg" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Glosslicious Kit Fran - Fran By Franciny Elkhe</h5>
+      <p class="card-text"><strong>R$ 96.67</strong></p>
+      <a href="https://mercadolivre.com/sec/2EZVMY7" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_813520-MLB75021934580_032024-E-xana-loka-ku-loko-kit-lokinha-brinde-surpresa-envio-rap.webp" alt="Xana Loka + Ku Loko Kit Lokinha + Brinde Surpresa Envio Rap" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Cuidado do Corpo">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_696360-MLA79510021258_102024-O.webp" alt="Cetaphil Creme Hidratante 453g" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Xana Loka + Ku Loko Kit Lokinha + Brinde Surpresa Envio Rap</h5>
-      <p class="card-text"><strong>R$ 38.79</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/1nAtmVb" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Cetaphil Creme Hidratante 453g</h5>
+      <p class="card-text"><strong>R$ 77.32</strong></p>
+      <a href="https://mercadolivre.com/sec/2scRLw3" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_769254-MLB73153780509_112023-E-pomada-negra-extraforte-para-massagem-kit-com-3-de-200g-cada.webp" alt="Pomada Negra Extraforte Para Massagem Kit Com 3 De 200g Cada" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Pranchas de Cabelo">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_792215-MLU72637512281_112023-O.webp" alt="Prancha Chapinha Lizze Extreme Cor Cinza-escuro Voltagem" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Pomada Negra Extraforte Para Massagem Kit Com 3 De 200g Cada</h5>
-      <p class="card-text"><strong>R$ 46.80</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/2s6p8Pc" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Prancha Chapinha Lizze Extreme Cor Cinza-escuro Voltagem</h5>
+      <p class="card-text"><strong>R$ 479.75</strong></p>
+      <a href="https://mercadolivre.com/sec/1zAf57L" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_884283-MLB44223043309_122020-E-kit-6-ponteiras-jato-de-plasma-em-inox-pronta-entrega.webp" alt="Kit 6 Ponteiras Jato De Plasma Em Inox Pronta Entrega" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Secadores de Cabelo">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_890355-MLU72750627810_112023-O.webp" alt="Taiff Profissional Black Ion Secador De Cabelo 2000 Watts" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Kit 6 Ponteiras Jato De Plasma Em Inox Pronta Entrega</h5>
-      <p class="card-text"><strong>R$ 47.39</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/22CQpGr" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Taiff Profissional Black Ion Secador De Cabelo 2000 Watts</h5>
+      <p class="card-text"><strong>R$ 267.09</strong></p>
+      <a href="https://mercadolivre.com/sec/28489GC" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_842595-MLB83350244488_042025-E-kit-oleo-vegetal-semente-de-uva-100-puro-1-litro.webp" alt="Kit Óleo Vegetal Semente De Uva 100% Puro - 1 Litro" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Cuidado do Corpo">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_832151-MLU69955905478_062023-O.webp" alt="Creme Hidratante Textura Cremosa 454g Cerave" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Kit Óleo Vegetal Semente De Uva 100% Puro - 1 Litro</h5>
-      <p class="card-text"><strong>R$ 48.78</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/2gcnxPN" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Creme Hidratante Textura Cremosa 454g Cerave</h5>
+      <p class="card-text"><strong>R$ 103.88</strong></p>
+      <a href="https://mercadolivre.com/sec/2vAcfwA" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_738430-MLU79116573721_092024-E.webp" alt="Kit 120un Máscara Desidratada Descartável Limpeza Facial" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Secadores de Cabelo">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_669316-MLA52218052396_102022-O.webp" alt="Secador Taiff Style 2000w Motor Ac Preto -" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Kit 120un Máscara Desidratada Descartável Limpeza Facial</h5>
-      <p class="card-text"><strong>R$ 32.99</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/2ADhXTR" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Secador Taiff Style 2000w Motor Ac Preto -</h5>
+      <p class="card-text"><strong>R$ 229.63</strong></p>
+      <a href="https://mercadolivre.com/sec/1Wtzvsc" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_808520-MLB81902606302_012025-E-kit-500-gola-higinica-descartavel-master-beleza-barbearia.webp" alt="Kit 500 Gola Higiênica Descartável Master Beleza Barbearia" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Escovas Elétricas">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_671790-MLU75357944335_032024-O.webp" alt="Britânia Escova Secadora Bec02pr 4 Em 1 1300w Cor Preto E Rosa" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Kit 500 Gola Higiênica Descartável Master Beleza Barbearia</h5>
-      <p class="card-text"><strong>R$ 29.68</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/1rvXx4x" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Britânia Escova Secadora Bec02pr 4 Em 1 1300w Cor Preto E Rosa</h5>
+      <p class="card-text"><strong>R$ 101.36</strong></p>
+      <a href="https://mercadolivre.com/sec/1wAhq8o" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_980998-MLB76301789090_052024-E-kit-60-mascaras-trata-olheiras-colageno-adesivo-antirrugas.webp" alt="Kit 60 Máscaras Trata Olheiras Colágeno Adesivo Antirrugas" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Brilho Labial">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_610701-MLU72565366536_112023-O.webp" alt="Chocochilli Gloss Fran By Franciny Ehlke Acabamento Brilhante Chocolate" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Kit 60 Máscaras Trata Olheiras Colágeno Adesivo Antirrugas</h5>
-      <p class="card-text"><strong>R$ 36.79</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/2r5fS3L" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Chocochilli Gloss Fran By Franciny Ehlke Acabamento Brilhante Chocolate</h5>
+      <p class="card-text"><strong>R$ 50.99</strong></p>
+      <a href="https://mercadolivre.com/sec/1LMtJdy" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_840658-MLU73467457416_122023-E.webp" alt="Kit 7 Curetas Remove Cravos Espinhas Aço Inoxidável C/estojo" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Beleza e Cuidado Pessoal">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_612449-MLA83387230079_032025-O.webp" alt="Deo Colônia Cebolinha 25ml - Jequiti Volume Da Unidade 25 Ml" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Kit 7 Curetas Remove Cravos Espinhas Aço Inoxidável C/estojo</h5>
-      <p class="card-text"><strong>R$ 26.21</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/1kAAnJm" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Deo Colônia Cebolinha 25ml - Jequiti Volume Da Unidade 25 Ml</h5>
+      <p class="card-text"><strong>R$ 27.00</strong></p>
+      <a href="https://mercadolivre.com/sec/1wZLJk2" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_612049-MLB81540485134_012025-E-kit-2-gel-massageador-nectar-cosmeticos-veneno-de-abelha-200.webp" alt="Kit 2 Gel Massageador Nectar Cosmeticos Veneno De Abelha 200" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Cuidado Facial">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_800128-MLA81189815729_122024-O.webp" alt="Gel De Limpeza Facial Effaclar Concentrado 300g La Roche Posay" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Kit 2 Gel Massageador Nectar Cosmeticos Veneno De Abelha 200</h5>
-      <p class="card-text"><strong>R$ 39.98</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/2N28Umo" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Gel De Limpeza Facial Effaclar Concentrado 300g La Roche Posay</h5>
+      <p class="card-text"><strong>R$ 69.90</strong></p>
+      <a href="https://mercadolivre.com/sec/1tt1JfH" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_773746-MLB75861783704_042024-E-kit-coala-sabonete-liquido-500ml-difusor-de-aromas-100ml.webp" alt="Kit Coala Sabonete Líquido 500ml + Difusor De Aromas 100ml" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Escovas Alisadoras para Barba">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_759928-MLU75592406885_042024-O.webp" alt="Escova Secadora Britânia Bes08p 1300w" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Kit Coala Sabonete Líquido 500ml + Difusor De Aromas 100ml</h5>
-      <p class="card-text"><strong>R$ 40.41</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/271hRBD" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Escova Secadora Britânia Bes08p 1300w</h5>
+      <p class="card-text"><strong>R$ 98.89</strong></p>
+      <a href="https://mercadolivre.com/sec/2vgGZ9F" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_958508-MLB83209280169_032025-E-kit-gel-firmador-de-bumbum-150g-2-gel-pimenta-negra-200g.webp" alt="Kit Gel Firmador De Bumbum 150g + 2 Gel Pimenta Negra 200g" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Protetores e Bloqueadores">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_884359-MLU77841247992_072024-O.webp" alt="Protetor Solar Facial Ps-01 Fps 60" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Kit Gel Firmador De Bumbum 150g + 2 Gel Pimenta Negra 200g</h5>
-      <p class="card-text"><strong>R$ 22.90</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/1n1367U" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Protetor Solar Facial Ps-01 Fps 60</h5>
+      <p class="card-text"><strong>R$ 44.00</strong></p>
+      <a href="https://mercadolivre.com/sec/1pZSn9d" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_606315-MLB81503657294_012025-E-kit-5-argilas-branca-verde-preta-rosa-e-amarela-200g.webp" alt="Kit 5 Argilas (branca, Verde, Preta, Rosa E Amarela) 200g" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Delineadores para Sobrancelhas">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_929958-MLU72636829595_112023-O.webp" alt="Henna Glance 3,5g Com Fixador 20ml E Pá Medidora Cor Castanho Escuro" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Kit 5 Argilas (branca, Verde, Preta, Rosa E Amarela) 200g</h5>
-      <p class="card-text"><strong>R$ 25.19</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/2o6XAhU" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Henna Glance 3,5g Com Fixador 20ml E Pá Medidora Cor Castanho Escuro</h5>
+      <p class="card-text"><strong>R$ 37.50</strong></p>
+      <a href="https://mercadolivre.com/sec/2AsjB5p" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_748743-MLU73421007853_122023-E.webp" alt="Kit 3 Bepantriz Pomada Dermatológica Dexpantenol Com 30g" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Shampoos e Condicionadores">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_785078-MLA83207207540_042025-O.webp" alt="Shampoo Estimulante Antiqueda 400g Vichy Dercos" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Kit 3 Bepantriz Pomada Dermatológica Dexpantenol Com 30g</h5>
-      <p class="card-text"><strong>R$ 41.99</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/2V3KshQ" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Shampoo Estimulante Antiqueda 400g Vichy Dercos</h5>
+      <p class="card-text"><strong>R$ 109.90</strong></p>
+      <a href="https://mercadolivre.com/sec/2Vwj2PW" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_621023-MLU72721915027_112023-E.webp" alt="Kit C/3 Óleos De Girassol Cicatrizante P/feridas E Escaras" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Alicates de Unhas">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_853220-MLU72628124656_112023-O.webp" alt="Alicate Cutícula Mundial 777 Profissional Aço Inox" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Kit C/3 Óleos De Girassol Cicatrizante P/feridas E Escaras</h5>
-      <p class="card-text"><strong>R$ 29.90</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/28SDQUS" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_624618-MLB79008858761_092024-E-kit-skin-care-limpeza-de-pele-kit-dermachem-rosa-mosqueta.webp" alt="Kit Skin Care Limpeza De Pele Kit Dermachem Rosa Mosqueta" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Kit Skin Care Limpeza De Pele Kit Dermachem Rosa Mosqueta</h5>
-      <p class="card-text"><strong>R$ 49.90</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/27zfy8K" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_869167-MLU78711984120_092024-E.webp" alt="Kit 3 Pomadas Massageadora Fisiofort Premium Bio Instinto" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Kit 3 Pomadas Massageadora Fisiofort Premium Bio Instinto</h5>
-      <p class="card-text"><strong>R$ 23.58</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/1r9VZUW" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_922566-MLB76334157492_052024-E-kit-10-pomadas-anti-inflamatoria-50-ervas-alivio-instantneo.webp" alt="Kit 10 Pomadas Anti-inflamatória 50 Ervas Alívio Instantâneo" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Kit 10 Pomadas Anti-inflamatória 50 Ervas Alívio Instantâneo</h5>
-      <p class="card-text"><strong>R$ 47.86</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/1LPq4CQ" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_941114-MLA81058024889_112024-E.webp" alt="Kit 2x Anti Rugas Adesivo Silicone Colo Do Peito Rejuvenesce" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Kit 2x Anti Rugas Adesivo Silicone Colo Do Peito Rejuvenesce</h5>
-      <p class="card-text"><strong>R$ 43.59</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/2Mog7Fd" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card">
-    <img src="https://http2.mlstatic.com/D_Q_NP_2X_671941-MLU75457771071_032024-E.webp" alt="Kit 30 Mascaras Hidratante Labial Boca Com Colágeno" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Kit 30 Mascaras Hidratante Labial Boca Com Colágeno</h5>
-      <p class="card-text"><strong>R$ 48.40</strong></p>
-      
-      <a href="https://mercadolivre.com/sec/13ac9oH" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Alicate Cutícula Mundial 777 Profissional Aço Inox</h5>
+      <p class="card-text"><strong>R$ 31.15</strong></p>
+      <a href="https://mercadolivre.com/sec/1iRuX6h" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
@@ -363,4 +329,5 @@
 </footer>
 
 </body>
+<script src="filtros.js"></script>
 </html>
