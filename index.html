@@ -6,50 +6,100 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="PromoFinderML - Ofertas por departamento">
   <title>Departamentos | PromoFinderML</title>
+  
+  <!-- Google Fonts + Bootstrap -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  
   <style>
     body {
       background-color: #f8f9fa;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Poppins', sans-serif;
     }
+
     header {
       background-color: #1f1f1f;
       color: white;
-      padding: 2rem;
+      padding: 2.5rem 1rem 2rem;
       text-align: center;
+      border-bottom: 4px solid #ffc107;
+      position: relative;
     }
-    .departamento-card {
-      background-color: #fff;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      padding: 2rem;
+
+    .grupo-icon {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+    }
+
+    .grupo-icon a {
+      color: #25D366;
+      font-size: 1.8rem;
       transition: transform 0.2s ease;
+    }
+
+    .grupo-icon a:hover {
+      transform: scale(1.15);
+    }
+
+    h1 {
+      font-weight: 600;
+      font-size: 2.7rem;
+      margin-bottom: 0.3rem;
+    }
+
+    p.lead {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    .lojas-conectadas {
+      margin-top: 1.5rem;
+      font-size: 1rem;
+      color: #ffc107;
+    }
+
+    .departamento-card {
+      background-color: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+      padding: 2rem;
+      transition: transform 0.2s ease, background-color 0.2s ease;
       height: 100%;
       text-align: center;
-      border: 2px solid #ffc107;
+      border: 1px solid #ffc107;
     }
+
     .departamento-card:hover {
-      transform: scale(1.03);
+      transform: translateY(-5px);
       background-color: #fffbea;
     }
+
     .departamento-btn {
       background-color: #ffc107;
       color: #000;
-      font-weight: bold;
+      font-weight: 600;
       border: none;
       margin-top: 1rem;
+      transition: background-color 0.3s ease;
     }
+
     .departamento-btn:hover {
       background-color: #e0a800;
       color: #fff;
     }
+
     .footer {
       text-align: center;
       font-size: 0.85rem;
-      color: #777;
-      margin-top: 3rem;
-      padding-bottom: 2rem;
+      color: #555;
+      margin-top: 4rem;
+      padding: 2rem 1rem;
+      background-color: #f1f1f1;
+      border-top: 2px solid #ffc107;
     }
+
     a {
       text-decoration: none;
       color: inherit;
@@ -59,45 +109,59 @@
 
 <body>
 
-<header>
-  <h1>PromoFinder 🚀</h1>
-  <p class="lead">Escolha um departamento e encontre ofertas incríveis!</p>
-</header>
-
-<main class="container mt-5">
-  <div class="row g-4">
-
-    <div class="col-md-4">
-      <div class="departamento-card h-100">
-        <h4>🧴 Beleza e Cuidado</h4>
-        <p>Cosméticos, skincare, autocuidado e mais.</p>
-        <a href="pagina_cuidados_beleza.html" class="btn departamento-btn w-100">Ver ofertas</a>
-      </div>
+  <header>
+    <div class="grupo-icon">
+      <a href="https://chat.whatsapp.com/Lckq2NTpiNGLokKJxfgv9h" title="Entrar no grupo do WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+      </a>
     </div>
+    <h1>PromoFinder 🚀</h1>
+    <p class="lead">Seu radar inteligente de ofertas entre Amazon, Mercado Livre e Shopee.</p>
+    <p class="lojas-conectadas">Comparando produtos, conectando oportunidades.</p>
+  </header>
 
-    <div class="col-md-4">
-      <div class="departamento-card h-100">
-        <h4>🏋️ Fitness</h4>
-        <p>Suplementos, equipamentos e estilo de vida saudável.</p>
-        <a href="pagina_fitness.html" class="btn departamento-btn w-100">Ver ofertas</a>
+  <main class="container mt-5">
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="departamento-card h-100">
+          <h4>🧴 Beleza e Cuidado</h4>
+          <p>Cosméticos, skincare, autocuidado e mais.</p>
+          <a href="pagina_cuidados_beleza.html" class="btn departamento-btn w-100">Ver ofertas</a>
+        </div>
       </div>
-    </div>
 
-    <div class="col-md-4">
-      <div class="departamento-card h-100">
-        <h4>💻 Tecnologia</h4>
-        <p>Gadgets, acessórios e inovação digital.</p>
-        <a href="pagina_tecnologia.html" class="btn departamento-btn w-100">Ver ofertas</a>
+      <div class="col-md-4">
+        <div class="departamento-card h-100">
+          <h4>🏋️ Fitness</h4>
+          <p>Suplementos, equipamentos e estilo de vida saudável.</p>
+          <a href="pagina_fitness.html" class="btn departamento-btn w-100">Ver ofertas</a>
+        </div>
       </div>
+
+      <div class="col-md-4">
+        <div class="departamento-card h-100">
+          <h4>💻 Tecnologia</h4>
+          <p>Gadgets, acessórios e inovação digital.</p>
+          <a href="pagina_tecnologia.html" class="btn departamento-btn w-100">Ver ofertas</a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="departamento-card h-100">
+          <h4>🐶 Pet</h4>
+          <p>Produtos para pets, brinquedos, higiene e mais.</p>
+          <a href="pagina_pet.html" class="btn departamento-btn w-100">Ver ofertas</a>
+        </div>
+      </div>
+
     </div>
+  </main>
 
-  </div>
-</main>
-
-<footer class="footer">
-  <p>Desenvolvido por Victor com ❤️ e Python. Dados extraídos automaticamente via WebScraping.</p>
-  <p><a href="https://chat.whatsapp.com/Lckq2NTpiNGLokKJxfgv9h">Receba ofertas em primeira mão</a></p>
-</footer>
+  <footer class="footer">
+    <p>© 2025 PromoFinderML — Desenvolvido com ❤️ por Victor. Dados coletados via Web Scraping.</p>
+    <p><a href="https://chat.whatsapp.com/Lckq2NTpiNGLokKJxfgv9h">Entre no grupo para receber ofertas exclusivas</a></p>
+  </footer>
 
 </body>
 </html>

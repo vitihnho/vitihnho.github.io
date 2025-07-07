@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="PromoFinderML - Ofertas em Cuidados e Beleza">
-  <title>Cuidados e Beleza | PromoFinderML</title>
+  <meta name="description" content="PromoFinderML - Ofertas em cuidados_beleza">
+  <title>cuidados_beleza | PromoFinderML</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
@@ -46,8 +46,8 @@
 <body>
 
 <header>
-  <h1>Cuidados e Beleza 🛍️</h1>
-  <p class="lead">Ofertas selecionadas para você em Cuidados e Beleza.</p>
+  <h1>cuidados_beleza 🛍️</h1>
+  <p class="lead">Ofertas selecionadas para você em cuidados_beleza.</p>
   <a href="index.html" class="btn btn-light mt-3">← Voltar para a página inicial</a>
 </header>
 
@@ -71,626 +71,1104 @@
         <input type="number" id="filtroPrecoMax" class="form-control" placeholder="Preço máx.">
       </div>
     </div>
-    <div class="col-md-5">
+    <div class="col-md-3">
       <div class="input-group">
         <span class="input-group-text bg-white">📦</span>
         <select id="filtroSubcategoria" class="form-select">
           <option value="">Todas as subcategorias</option>
-          <option value="Apliques de Cabelo">Apliques de Cabelo</option>
-<option value="Barbeadores Elétricos">Barbeadores Elétricos</option>
-<option value="Brilho Labial">Brilho Labial</option>
-<option value="Cuidado Facial">Cuidado Facial</option>
-<option value="Cuidado do Corpo">Cuidado do Corpo</option>
-<option value="Cuidados com a Pele">Cuidados com a Pele</option>
-<option value="Demaquilantes">Demaquilantes</option>
-<option value="Equipamento para Tatuagens">Equipamento para Tatuagens</option>
-<option value="Kits de Cuidado com a Pele">Kits de Cuidado com a Pele</option>
-<option value="Limpeza Facial">Limpeza Facial</option>
-<option value="Máscaras Faciais">Máscaras Faciais</option>
+          <option value="Acessórios Fitness">Acessórios Fitness</option>
+<option value="Barba e Depilação">Barba e Depilação</option>
+<option value="Calçados Esportivos">Calçados Esportivos</option>
+<option value="Calças e Bermudas">Calças e Bermudas</option>
+<option value="Equipamentos de Treino">Equipamentos de Treino</option>
+<option value="Maquiagem">Maquiagem</option>
 <option value="Outros">Outros</option>
-<option value="Protetores Labiais">Protetores Labiais</option>
-<option value="Protetores e Bloqueadores">Protetores e Bloqueadores</option>
-<option value="Suplementos">Suplementos</option>
+<option value="Outros Esportes">Outros Esportes</option>
+<option value="Pele">Pele</option>
+<option value="Suplementos Alimentares">Suplementos Alimentares</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="input-group">
+        <span class="input-group-text bg-white">🛒</span>
+        <select id="filtroPlataforma" class="form-select">
+          <option value="">Todas as lojas</option>
+          <option value="mercado_livre">Mercado Livre</option>
+          <option value="amazon">Amazon</option>
+          <option value="shopee">Shopee</option>
         </select>
       </div>
     </div>
   </div>
 </section>
 
-
 <main class="container mt-5">
   <div class="row">
     
 <div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado do Corpo">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_865282-MLU75813832406_042024-O.webp" alt="ISDIN Sabonete Líquido Corporal Ureadin Bath Gel - 424g" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Suplementos Alimentares" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_821048-MLA86720606097_062025-O.webp" alt="Creatina monohidratada 300g 100% pura - Probiotica" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">ISDIN Sabonete Líquido Corporal Ureadin Bath Gel - 424g</h5>
-      <p class="card-text"><strong>R$ 54.99</strong></p>
-      <a href="https://mercadolivre.com/sec/2qvrmAE" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Creatina monohidratada 300g 100% pura - Probiotica</h5>
+      <p class="card-text"><strong>R$ 60.90</strong></p>
+      <a href="https://mercadolivre.com/sec/2Z7VXMg" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_823702-MLU75979260137_042024-O.webp" alt="Sérum Retinol Noturno Antirrugas L'Oréal Paris Revitalift 30ml" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Outros Esportes" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_640920-MLB83704402208_042025-O-bola-de-futsal-sandrini-pro-oficial-alta-performance-quadra.webp" alt="Bola De Futsal Sandrini Pro Oficial Alta Performance Quadra" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Sérum Retinol Noturno Antirrugas L'Oréal Paris Revitalift 30ml</h5>
-      <p class="card-text"><strong>R$ 89.90</strong></p>
-      <a href="https://mercadolivre.com/sec/27PCYF6" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Kits de Cuidado com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_766103-MLA84543060374_052025-O.webp" alt="Kit Primeira Rotina Skincare C/gl-02 + Ah-2 + Ps-01" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Kit Primeira Rotina Skincare C/gl-02 + Ah-2 + Ps-01</h5>
-      <p class="card-text"><strong>R$ 117.60</strong></p>
-      <a href="https://mercadolivre.com/sec/2KonX5F" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_815919-MLU74221481001_012024-O.webp" alt="Sérum Intensivo Multiclareador Chronos 30g" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Sérum Intensivo Multiclareador Chronos 30g</h5>
-      <p class="card-text"><strong>R$ 109.62</strong></p>
-      <a href="https://mercadolivre.com/sec/2jfovji" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_621770-MLU75998814229_042024-O.webp" alt="Água Micelar Solução De Limpeza 5 Em 1 L'oréal Paris Todos Os Tipos De Pele" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Água Micelar Solução De Limpeza 5 Em 1 L'oréal Paris Todos Os Tipos De Pele</h5>
-      <p class="card-text"><strong>R$ 18.91</strong></p>
-      <a href="https://mercadolivre.com/sec/1jESVMJ" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado Facial">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_938311-MLA84555675978_052025-O.webp" alt="Creme Hidratante Loréal Paris Revitalift Hialurônico Dia 25g Tipo de pele Normal" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Creme Hidratante Loréal Paris Revitalift Hialurônico Dia 25g Tipo de pele Normal</h5>
-      <p class="card-text"><strong>R$ 27.73</strong></p>
-      <a href="https://mercadolivre.com/sec/31ZCCy7" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado Facial">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_891731-MLU74537679819_022024-O.webp" alt="Gel de Limpeza Facial Com Vitamina C Actine 400g Darrow" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Gel de Limpeza Facial Com Vitamina C Actine 400g Darrow</h5>
-      <p class="card-text"><strong>R$ 68.79</strong></p>
-      <a href="https://mercadolivre.com/sec/21hjch9" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Demaquilantes">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_934307-MLU74247985299_012024-O.webp" alt="Demaquilante Hada Labo Gokujyun Oil Cleansing Com 200ml" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Demaquilante Hada Labo Gokujyun Oil Cleansing Com 200ml</h5>
-      <p class="card-text"><strong>R$ 69.90</strong></p>
-      <a href="https://mercadolivre.com/sec/26py6Jo" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_678423-MLA84550107168_052025-O.webp" alt="Sérum Intensivo Antioxidante Chronos 15ml Tipo De Pele Normal" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Sérum Intensivo Antioxidante Chronos 15ml Tipo De Pele Normal</h5>
-      <p class="card-text"><strong>R$ 64.69</strong></p>
-      <a href="https://mercadolivre.com/sec/2Xcz8y3" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Outros">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_720540-MLB80100880724_102024-O-manclub-aparador-de-pelos-eletrico-desmatador.webp" alt="Manclub® - Aparador De Pelos Elétrico - Desmatador" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Manclub® - Aparador De Pelos Elétrico - Desmatador</h5>
-      <p class="card-text"><strong>R$ 339.48</strong></p>
-      <a href="https://mercadolivre.com/sec/21kQ1xc" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_885625-MLA74781544045_022024-O-bumbum-cream-200g-creme-anticelulite-e-antiestrias-para-o-corpo-beleza-brasileira.webp" alt="Bumbum Cream 200g Creme Anticelulite E Antiestrias Para O Corpo Beleza Brasileira" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Bumbum Cream 200g Creme Anticelulite E Antiestrias Para O Corpo Beleza Brasileira</h5>
-      <p class="card-text"><strong>R$ 99.00</strong></p>
-      <a href="https://mercadolivre.com/sec/2ofS7gP" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Apliques de Cabelo">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_874495-MLB71564260845_092023-O-kit-gypsy-braids-cabelo-jumbo-super-african-beauty-e-crochet.webp" alt="Kit Gypsy Braids Cabelo Jumbo Super African Beauty E Crochet" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Kit Gypsy Braids Cabelo Jumbo Super African Beauty E Crochet</h5>
-      <p class="card-text"><strong>R$ 132.98</strong></p>
-      <a href="https://mercadolivre.com/sec/1vGQ3xc" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Protetores e Bloqueadores">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_884359-MLU77841247992_072024-O.webp" alt="Protetor Solar Facial PS-01 FPS 60" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Protetor Solar Facial PS-01 FPS 60</h5>
-      <p class="card-text"><strong>R$ 44.00</strong></p>
-      <a href="https://mercadolivre.com/sec/1pZSn9d" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado Facial">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_975843-MLU78455299106_082024-O.webp" alt="ISDIN Acniben Esfoliante Suave para Pele Acneica - 105g" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">ISDIN Acniben Esfoliante Suave para Pele Acneica - 105g</h5>
-      <p class="card-text"><strong>R$ 73.91</strong></p>
-      <a href="https://mercadolivre.com/sec/1MY7TFb" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Limpeza Facial">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_826081-MLU75980406219_042024-O.webp" alt="Água Micelar 7 em 1 Hialurônico Puro L'Oréal Paris" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Água Micelar 7 em 1 Hialurônico Puro L'Oréal Paris</h5>
-      <p class="card-text"><strong>R$ 25.25</strong></p>
-      <a href="https://mercadolivre.com/sec/2F2bwt6" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_870001-MLB50158815649_062022-O.webp" alt="Creme Antirrugas Para Olhos 15g L'Oréal Paris Revitalift" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Creme Antirrugas Para Olhos 15g L'Oréal Paris Revitalift</h5>
-      <p class="card-text"><strong>R$ 42.99</strong></p>
-      <a href="https://mercadolivre.com/sec/29HHBNv" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Kits de Cuidado com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_675566-MLA80686398549_112024-O.webp" alt="Principia Kit Gel De Limpeza GL-01 + Protetor Solar Facial PS-01 FPS 60" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Principia Kit Gel De Limpeza GL-01 + Protetor Solar Facial PS-01 FPS 60</h5>
-      <p class="card-text"><strong>R$ 79.00</strong></p>
-      <a href="https://mercadolivre.com/sec/1iSFodg" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado Facial">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_869318-MLA85121706110_052025-O.webp" alt="Principia, Gel Hidratante Facial GH-01 50g" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Principia, Gel Hidratante Facial GH-01 50g</h5>
-      <p class="card-text"><strong>R$ 54.00</strong></p>
-      <a href="https://mercadolivre.com/sec/1Pf1XNd" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado do Corpo">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_707587-MLB79358936471_092024-O-creme-hidratante-angel-isabelle-la-belle-alta-fixaco-origin.webp" alt="Creme Hidratante Angel Isabelle La Belle Alta Fixação Origin" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Creme Hidratante Angel Isabelle La Belle Alta Fixação Origin</h5>
-      <p class="card-text"><strong>R$ 67.08</strong></p>
-      <a href="https://mercadolivre.com/sec/1G1ej2E" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Barbeadores Elétricos">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_795983-MLB81281759848_122024-O-maquina-maquininha-de-raspar-cortar-pelos-intimos-do-homem.webp" alt="Maquina Maquininha De Raspar Cortar Pelos Íntimos Do Homem" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Maquina Maquininha De Raspar Cortar Pelos Íntimos Do Homem</h5>
-      <p class="card-text"><strong>R$ 175.00</strong></p>
-      <a href="https://mercadolivre.com/sec/1Knap4y" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Brilho Labial">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_602979-MLB82530156987_022025-O-gloss-labial-liphoney-franciny-ehlke-brilho-irresistivel.webp" alt="Gloss Labial Liphoney Franciny Ehlke Brilho Irresistível" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Gloss Labial Liphoney Franciny Ehlke Brilho Irresistível</h5>
-      <p class="card-text"><strong>R$ 89.91</strong></p>
-      <a href="https://mercadolivre.com/sec/1w8N3JK" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_828744-MLA81925003571_012025-O.webp" alt="Garnier Hidratante Vitamina C Toque Seco 85g" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Garnier Hidratante Vitamina C Toque Seco 85g</h5>
-      <p class="card-text"><strong>R$ 30.29</strong></p>
-      <a href="https://mercadolivre.com/sec/1cVKrst" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_643270-MLA82047489857_012025-O.webp" alt="Hidratante Facial Antiacne Salicílico Toque Seco 85g Garnier Momento de aplicação Dia/Noite Tipo de pele Oleosa" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Hidratante Facial Antiacne Salicílico Toque Seco 85g Garnier Momento de aplicação Dia/Noite Tipo de pele Oleosa</h5>
-      <p class="card-text"><strong>R$ 29.90</strong></p>
-      <a href="https://mercadolivre.com/sec/1vtzKan" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_721904-MLA83207475676_042025-O.webp" alt="Creme Multirreparador Cicaplast Baume B5+ 40ml La Roche-posay" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Creme Multirreparador Cicaplast Baume B5+ 40ml La Roche-posay</h5>
-      <p class="card-text"><strong>R$ 115.33</strong></p>
-      <a href="https://mercadolivre.com/sec/1cKkmBE" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_670612-MLB74162425659_012024-O.webp" alt="Hidratante Facial Epidrat Calm B5 Para Pele Sensível 50ml Mantecorp" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Hidratante Facial Epidrat Calm B5 Para Pele Sensível 50ml Mantecorp</h5>
-      <p class="card-text"><strong>R$ 63.43</strong></p>
-      <a href="https://mercadolivre.com/sec/1xYNxom" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_713387-MLA84525356222_052025-O.webp" alt="Hidratante Facial Hydro Boost Water Gel 50g Neutrogena" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Hidratante Facial Hydro Boost Water Gel 50g Neutrogena</h5>
-      <p class="card-text"><strong>R$ 48.60</strong></p>
-      <a href="https://mercadolivre.com/sec/23TqNHy" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado Facial">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_705618-MLU72700364357_112023-O.webp" alt="Creamy Skincare Eye Cream 15g | Ação Anti-Idade, Peles com Manchas, Atenua Coloração Escura das Olheiras, Sem Fragrância | Uso Diurno e Noturno, Todos os Tipos de Pele" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Creamy Skincare Eye Cream 15g | Ação Anti-Idade, Peles com Manchas, Atenua Coloração Escura das Olheiras, Sem Fragrância | Uso Diurno e Noturno, Todos os Tipos de Pele</h5>
-      <p class="card-text"><strong>R$ 94.90</strong></p>
-      <a href="https://mercadolivre.com/sec/1yzK5hi" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_884590-MLU78064210557_072024-O.webp" alt="Kit Anti-acne Avançado" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Kit Anti-acne Avançado</h5>
-      <p class="card-text"><strong>R$ 208.00</strong></p>
-      <a href="https://mercadolivre.com/sec/1U5YNjq" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Máscaras Faciais">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_673841-MLA84839457535_052025-O.webp" alt="Natura Chronos Máscara De Argila Purificante 70g" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Natura Chronos Máscara De Argila Purificante 70g</h5>
-      <p class="card-text"><strong>R$ 113.40</strong></p>
-      <a href="https://mercadolivre.com/sec/2JiXr3n" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado Facial">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_950344-MLA83444396111_032025-O.webp" alt="Creamy Skincare Sérum Pro-Adapaleno 30g | Antiacne com Retinoide Avançado, Reduz Acne, Poros Dilatados e Vermelhidão | Peles Sensíveis, Uso Noturno" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Creamy Skincare Sérum Pro-Adapaleno 30g | Antiacne com Retinoide Avançado, Reduz Acne, Poros Dilatados e Vermelhidão | Peles Sensíveis, Uso Noturno</h5>
-      <p class="card-text"><strong>R$ 118.00</strong></p>
-      <a href="https://mercadolivre.com/sec/2ELhXxX" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_848148-MLU72331139662_102023-O.webp" alt="Isdin sérum facial clareador anti-idade isdinceutics melaclear advanced 30ml" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Isdin sérum facial clareador anti-idade isdinceutics melaclear advanced 30ml</h5>
-      <p class="card-text"><strong>R$ 200.90</strong></p>
-      <a href="https://mercadolivre.com/sec/15wk83h" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado Facial">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_803095-MLU74051343394_012024-O.webp" alt="Creme Hidratante L'Oréal Paris Revitalift Pro Retinol Dia" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Creme Hidratante L'Oréal Paris Revitalift Pro Retinol Dia</h5>
-      <p class="card-text"><strong>R$ 49.57</strong></p>
-      <a href="https://mercadolivre.com/sec/1HYoMcS" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado Facial">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_863234-MLU76522295223_052024-O.webp" alt="Sérum Facial Antirrugas 30ml La Roche Posay Hyalu B5" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Sérum Facial Antirrugas 30ml La Roche Posay Hyalu B5</h5>
-      <p class="card-text"><strong>R$ 159.90</strong></p>
-      <a href="https://mercadolivre.com/sec/2B7fLtc" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado do Corpo">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_994628-MLU78867835193_092024-O.webp" alt="Loção hidratante Com Ácido Hialurônico 473ml Cerave" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Loção hidratante Com Ácido Hialurônico 473ml Cerave</h5>
-      <p class="card-text"><strong>R$ 83.44</strong></p>
-      <a href="https://mercadolivre.com/sec/2U7hLso" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado Facial">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_686075-MLA50182524599_062022-O.webp" alt="Vichy Liftactiv Colágeno Creme Specialist 50Ml" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Vichy Liftactiv Colágeno Creme Specialist 50Ml</h5>
-      <p class="card-text"><strong>R$ 218.00</strong></p>
-      <a href="https://mercadolivre.com/sec/1YpLfqA" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado Facial">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_665472-MLU75359066475_032024-O.webp" alt="Creamy Skincare Ácido Mandélico 30g | Reduz a Oleosidade Combate a Formação de Acne Uniformiza o Tom da Pele | Todos os Tipos de Pele Inclusive as Oleosas Uso Noturno" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Creamy Skincare Ácido Mandélico 30g | Reduz a Oleosidade Combate a Formação de Acne Uniformiza o Tom da Pele | Todos os Tipos de Pele Inclusive as Oleosas Uso Noturno</h5>
-      <p class="card-text"><strong>R$ 67.90</strong></p>
-      <a href="https://mercadolivre.com/sec/2cZbt8W" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Suplementos">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_709885-MLU75357946407_032024-O.webp" alt="Creamy Skincare Sérum Hidratante 30ml | Textura Leve, Oil-Free, Hidratação Profunda, Rápida Absorção | Uso Diurno e Noturno, Todos os Tipos de Pele, inclusive Oleosas" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Creamy Skincare Sérum Hidratante 30ml | Textura Leve, Oil-Free, Hidratação Profunda, Rápida Absorção | Uso Diurno e Noturno, Todos os Tipos de Pele, inclusive Oleosas</h5>
-      <p class="card-text"><strong>R$ 58.99</strong></p>
-      <a href="https://mercadolivre.com/sec/2LgDvnE" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_652404-MLU72675257078_112023-O.webp" alt="Creme Facial Antissinais Bio-regenext 50g Cicatricure Tipo de pele Normal" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Creme Facial Antissinais Bio-regenext 50g Cicatricure Tipo de pele Normal</h5>
-      <p class="card-text"><strong>R$ 50.44</strong></p>
-      <a href="https://mercadolivre.com/sec/28CaD2L" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado Facial">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_695011-MLU76530177602_052024-O.webp" alt="Mantecorp Gel Rejuvenescedor Facial Ivy C Aox 30g" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Mantecorp Gel Rejuvenescedor Facial Ivy C Aox 30g</h5>
-      <p class="card-text"><strong>R$ 174.00</strong></p>
-      <a href="https://mercadolivre.com/sec/1hvmBWn" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado Facial">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_944506-MLU74224538024_022024-O.webp" alt="Creamy Skincare Vitamina C 30ml | Sérum Facial, Vitamina C 10%, Aumenta Firmeza da Pele, Previne Rugas Finas, Clareador de Manchas | Todos os Tipos de Pele" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Creamy Skincare Vitamina C 30ml | Sérum Facial, Vitamina C 10%, Aumenta Firmeza da Pele, Previne Rugas Finas, Clareador de Manchas | Todos os Tipos de Pele</h5>
-      <p class="card-text"><strong>R$ 94.06</strong></p>
-      <a href="https://mercadolivre.com/sec/2x591gj" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado Facial">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_676088-MLU78138737075_082024-O.webp" alt="Adcos Collagen Filler Up - Creme Anti-idade - 50g" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Adcos Collagen Filler Up - Creme Anti-idade - 50g</h5>
-      <p class="card-text"><strong>R$ 369.00</strong></p>
-      <a href="https://mercadolivre.com/sec/1hzEt4v" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado Facial">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_800128-MLA81189815729_122024-O.webp" alt="Gel De Limpeza Facial Effaclar Concentrado 300g La Roche Posay" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Gel De Limpeza Facial Effaclar Concentrado 300g La Roche Posay</h5>
-      <p class="card-text"><strong>R$ 69.90</strong></p>
-      <a href="https://mercadolivre.com/sec/1tt1JfH" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado Facial">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_600939-MLU75981809981_042024-O.webp" alt="Protetor Solar e Clareador Facial com Cor Active Unify Color FPS 99 50ml Isdin" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Protetor Solar e Clareador Facial com Cor Active Unify Color FPS 99 50ml Isdin</h5>
-      <p class="card-text"><strong>R$ 101.00</strong></p>
-      <a href="https://mercadolivre.com/sec/1duGhTd" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado do Corpo">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_965784-MLU74123330873_012024-O.webp" alt="Creme Polpa Hidratante Para Mãos Natura Ekos Castanha 75g" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Creme Polpa Hidratante Para Mãos Natura Ekos Castanha 75g</h5>
-      <p class="card-text"><strong>R$ 42.42</strong></p>
-      <a href="https://mercadolivre.com/sec/1ih6eC8" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_731336-MLU78557698231_082024-O.webp" alt="Sérum Principia Vitamina C-10 Tipo de pele Todos" class="produto-img card-img-top">
-    <div class="card-body">
-      <h5 class="card-title">Sérum Principia Vitamina C-10 Tipo de pele Todos</h5>
+      <h5 class="card-title">Bola De Futsal Sandrini Pro Oficial Alta Performance Quadra</h5>
       <p class="card-text"><strong>R$ 57.59</strong></p>
-      <a href="https://mercadolivre.com/sec/2NSVCWC" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <a href="https://mercadolivre.com/sec/2jE9JkY" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_829075-MLU71305883541_082023-O.webp" alt="Óleo De Banho Higiene Hidratante Diária Atoderm 1l Bioderma" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Outros Esportes" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_618979-MLB83704800038_042025-O-bola-de-futebol-society-oficial-sandrini-pro-grama-sintetica.webp" alt="Bola De Futebol Society Oficial Sandrini Pro Grama Sintética" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Óleo De Banho Higiene Hidratante Diária Atoderm 1l Bioderma</h5>
-      <p class="card-text"><strong>R$ 190.99</strong></p>
-      <a href="https://mercadolivre.com/sec/1gUWzAZ" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Bola De Futebol Society Oficial Sandrini Pro Grama Sintética</h5>
+      <p class="card-text"><strong>R$ 55.93</strong></p>
+      <a href="https://mercadolivre.com/sec/11bicAa" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Equipamento para Tatuagens">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_816246-MLA79479991698_102024-O-pomada-anestesica-com-tripla-aco-tattoo-melhor-e-mais-forte.webp" alt="Pomada Anestésica Com Tripla Ação Tattoo Melhor E Mais Forte" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Suplementos Alimentares" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_699045-MLU77991092536_082024-O.webp" alt="Creatina Monohidratada Pura 600g Dark Lab Unidade" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Pomada Anestésica Com Tripla Ação Tattoo Melhor E Mais Forte</h5>
-      <p class="card-text"><strong>R$ 96.06</strong></p>
-      <a href="https://mercadolivre.com/sec/1gUWzAZ" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Creatina Monohidratada Pura 600g Dark Lab Unidade</h5>
+      <p class="card-text"><strong>R$ 69.83</strong></p>
+      <a href="https://mercadolivre.com/sec/2fE2wiN" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_658124-MLB50181621826_062022-O-oleo-de-limpeza-facial-hada-labo-gokujyun-200ml.webp" alt="Óleo De Limpeza Facial Hada Labo Gokujyun 200ml" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_670070-MLB79821735183_102024-O-linha-de-pesca-multifilamento-300metro-pe-4-fios-supertraco.webp" alt="Linha De Pesca Multifilamento 300metro Pe 4 Fios Supertração" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Óleo De Limpeza Facial Hada Labo Gokujyun 200ml</h5>
-      <p class="card-text"><strong>R$ 93.90</strong></p>
-      <a href="https://mercadolivre.com/sec/2f35DqK" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Linha De Pesca Multifilamento 300metro Pe 4 Fios Supertração</h5>
+      <p class="card-text"><strong>R$ 39.60</strong></p>
+      <a href="https://mercadolivre.com/sec/334J8CB" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_723786-MLU78747709933_082024-O.webp" alt="Creme Drenagem Linfática 1 Kg Hidramais" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_709280-MLU78461355395_082024-O.webp" alt="Colchao Inflavel Solteiro Mor + Inflador Embutido + Reparo Cor Azul" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Creme Drenagem Linfática 1 Kg Hidramais</h5>
-      <p class="card-text"><strong>R$ 46.41</strong></p>
-      <a href="https://mercadolivre.com/sec/2MKngA3" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Colchao Inflavel Solteiro Mor + Inflador Embutido + Reparo Cor Azul</h5>
+      <p class="card-text"><strong>R$ 93.98</strong></p>
+      <a href="https://mercadolivre.com/sec/14Conzf" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado Facial">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_911125-MLU73925199443_012024-O.webp" alt="Sérum Fortalecedor Facial Minéral 89 50 Ml Vichy" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_734359-MLB50168750708_062022-O-step-academia-ginastica-fitness-ams-eva.webp" alt="Step Academia Ginastica Fitness - Ams Eva" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Sérum Fortalecedor Facial Minéral 89 50 Ml Vichy</h5>
-      <p class="card-text"><strong>R$ 149.90</strong></p>
-      <a href="https://mercadolivre.com/sec/2sWKEhc" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Step Academia Ginastica Fitness - Ams Eva</h5>
+      <p class="card-text"><strong>R$ 78.90</strong></p>
+      <a href="https://mercadolivre.com/sec/1qdLJ34" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_920152-MLA84842642085_052025-O.webp" alt="Kit Anti-acne Essencial" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_951267-MLB53332631539_012023-O-linha-de-pesca-multifilamento-500m-15-20-30-40-50-60-100-lb.webp" alt="Linha De Pesca Multifilamento 500m 15-20-30-40-50-60-100 Lb" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Kit Anti-acne Essencial</h5>
-      <p class="card-text"><strong>R$ 168.80</strong></p>
-      <a href="https://mercadolivre.com/sec/2rpiuxF" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Linha De Pesca Multifilamento 500m 15-20-30-40-50-60-100 Lb</h5>
+      <p class="card-text"><strong>R$ 63.55</strong></p>
+      <a href="https://mercadolivre.com/sec/1CVcrt2" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Protetores Labiais">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_814979-MLU74957475797_032024-O.webp" alt="Batom Avon Renew Serum De Tratamento Labial Incolor - 3,5g" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Calças e Bermudas" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_951543-MLB80166194977_102024-O-meia-calcado-bota-neoprene-beach-tennis-esportes-areia-praia.webp" alt="Meia Calçado Bota Neoprene Beach Tennis Esportes Areia Praia" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Batom Avon Renew Serum De Tratamento Labial Incolor - 3,5g</h5>
-      <p class="card-text"><strong>R$ 33.90</strong></p>
-      <a href="https://mercadolivre.com/sec/1AYib6v" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Meia Calçado Bota Neoprene Beach Tennis Esportes Areia Praia</h5>
+      <p class="card-text"><strong>R$ 75.60</strong></p>
+      <a href="https://mercadolivre.com/sec/33MuASH" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidado Facial">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_810391-MLA80992618635_112024-O.webp" alt="Creamy Skincare Vitamina C Gold 30g | Antioxidante, Clareador e Anti-Aging, Uniformiza o Tom, Ameniza Manchas | Todos os Tipos de Pele, Noite e Dia" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_990561-MLB82915129561_032025-O-vara-de-pesca-20lbs-completa-com-molinete-e-linha-jau-pesca.webp" alt="Vara De Pesca 20lbs Completa Com Molinete E Linha Jau Pesca" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Creamy Skincare Vitamina C Gold 30g | Antioxidante, Clareador e Anti-Aging, Uniformiza o Tom, Ameniza Manchas | Todos os Tipos de Pele, Noite e Dia</h5>
-      <p class="card-text"><strong>R$ 166.51</strong></p>
-      <a href="https://mercadolivre.com/sec/1yZrEpM" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Vara De Pesca 20lbs Completa Com Molinete E Linha Jau Pesca</h5>
+      <p class="card-text"><strong>R$ 59.33</strong></p>
+      <a href="https://mercadolivre.com/sec/2VY3MQE" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
 
 <div class="col-md-4 mb-4">
-  <div class="produto-card card" data-subcategoria="Cuidados com a Pele">
-    <img src="https://http2.mlstatic.com/D_NQ_NP_824709-MLA84847783415_052025-O.webp" alt="Loção Intensiva Hidratante Neutrogena Norwegian Sem Fragrância 400ml" class="produto-img card-img-top">
+  <div class="produto-card card" data-subcategoria="Acessórios Fitness" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_838679-MLB82563190657_022025-O-garrafa-termica-1-litro-com-termmetro-led-para-chas-cafe.webp" alt="Garrafa Térmica 1 Litro Com Termômetro Led Para Chás / Café" class="produto-img card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Loção Intensiva Hidratante Neutrogena Norwegian Sem Fragrância 400ml</h5>
-      <p class="card-text"><strong>R$ 55.90</strong></p>
-      <a href="https://mercadolivre.com/sec/1QyEAYK" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+      <h5 class="card-title">Garrafa Térmica 1 Litro Com Termômetro Led Para Chás / Café</h5>
+      <p class="card-text"><strong>R$ 50.71</strong></p>
+      <a href="https://mercadolivre.com/sec/1JM1sQq" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Suplementos Alimentares" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_847295-MLA85101272248_052025-O.webp" alt="Creatina Monohidratada 600g 100% Pura Soldiers Nutrition Sem Sabor" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Creatina Monohidratada 600g 100% Pura Soldiers Nutrition Sem Sabor</h5>
+      <p class="card-text"><strong>R$ 67.10</strong></p>
+      <a href="https://mercadolivre.com/sec/18W8SLZ" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_878690-MLB81997587724_022025-O-copo-termico-gigante-12l-inox-com-tampa-e-inox-canudo.webp" alt="Copo Térmico Gigante 1,2l Inox Com Tampa E Inox Canudo" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Copo Térmico Gigante 1,2l Inox Com Tampa E Inox Canudo</h5>
+      <p class="card-text"><strong>R$ 57.98</strong></p>
+      <a href="https://mercadolivre.com/sec/23P2oWq" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Calçados Esportivos" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_882904-MLB74338265148_022024-O-tnis-branco-academia-caminhada-esportivo-confortavel-barato.webp" alt="Tênis Branco Academia Caminhada Esportivo Confortável Barato" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Tênis Branco Academia Caminhada Esportivo Confortável Barato</h5>
+      <p class="card-text"><strong>R$ 71.44</strong></p>
+      <a href="https://mercadolivre.com/sec/15zjeWe" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Acessórios Fitness" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_742603-MLU73325003162_122023-O.webp" alt="Tapete para Yoga em EVA - 180cm x 60cm x 0,5cm Roxo Muvin" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Tapete para Yoga em EVA - 180cm x 60cm x 0,5cm Roxo Muvin</h5>
+      <p class="card-text"><strong>R$ 58.18</strong></p>
+      <a href="https://mercadolivre.com/sec/2XxSWy4" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Calças e Bermudas" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_652867-MLB86479130319_062025-O-calca-legging-academia-poliamida-zero-transparncia-selene.webp" alt="Calça Legging Academia Poliamida Zero Transparência Selene" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Calça Legging Academia Poliamida Zero Transparência Selene</h5>
+      <p class="card-text"><strong>R$ 77.58</strong></p>
+      <a href="https://mercadolivre.com/sec/2M1Sfnx" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_882008-MLB82480086121_022025-O-4-latas-refil-gas-campgas-ntk-227g-p-fogareiro-macarico.webp" alt="4 Latas Refil Gás Campgas Ntk 227g P/ Fogareiro Maçarico" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">4 Latas Refil Gás Campgas Ntk 227g P/ Fogareiro Maçarico</h5>
+      <p class="card-text"><strong>R$ 55.19</strong></p>
+      <a href="https://mercadolivre.com/sec/1Rxt4UC" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Acessórios Fitness" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_850502-MLB77748569556_072024-O-garrafa-de-cafe-termica-vacuum-jug-com-termmetro-digital-1l.webp" alt="Garrafa De Cafe Térmica Vacuum Jug Com Termômetro Digital 1l" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Garrafa De Cafe Térmica Vacuum Jug Com Termômetro Digital 1l</h5>
+      <p class="card-text"><strong>R$ 49.03</strong></p>
+      <a href="https://mercadolivre.com/sec/2q4Eb7F" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Calçados Esportivos" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_657510-MLB72478460368_102023-O-tnis-branco-feminino-vili-para-caminhada-academia-treino.webp" alt="Tênis Branco Feminino Vili Para Caminhada Academia Treino" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Tênis Branco Feminino Vili Para Caminhada Academia Treino</h5>
+      <p class="card-text"><strong>R$ 76.21</strong></p>
+      <a href="https://mercadolivre.com/sec/1wuEzN9" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros Esportes" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_895386-MLU75193575211_032024-O.webp" alt="Bola de Pilates 55cm Muvin – Antiestouro – Suporta até 300kg – Com Bomba – Ginástica – Fitness – Pilates – Yoga – Fisioterapia – Flexibilidade – Fortalecimento – Tonificação – Fácil Limpeza - Cinza" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Bola de Pilates 55cm Muvin – Antiestouro – Suporta até 300kg – Com Bomba – Ginástica – Fitness – Pilates – Yoga – Fisioterapia – Flexibilidade – Fortalecimento – Tonificação – Fácil Limpeza - Cinza</h5>
+      <p class="card-text"><strong>R$ 77.19</strong></p>
+      <a href="https://mercadolivre.com/sec/2tZbUuv" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_871386-MLU73212566967_122023-O.webp" alt="Roda Para Abdominal Dupla Vollo Exercício Abdominal Treino Funcional Academia Crossfit Rodinha Treinamento Para Fortalecer Abdômen" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Roda Para Abdominal Dupla Vollo Exercício Abdominal Treino Funcional Academia Crossfit Rodinha Treinamento Para Fortalecer Abdômen</h5>
+      <p class="card-text"><strong>R$ 79.81</strong></p>
+      <a href="https://mercadolivre.com/sec/2zBTtf1" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Calçados Esportivos" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_676156-MLB74284527185_012024-O-tnis-masculino-olymp-olimp-space-caminhada-barato-promoco.webp" alt="Tênis Masculino Olymp Olimp Space Caminhada Barato Promoção" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Tênis Masculino Olymp Olimp Space Caminhada Barato Promoção</h5>
+      <p class="card-text"><strong>R$ 71.01</strong></p>
+      <a href="https://mercadolivre.com/sec/2iV6n3s" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Acessórios Fitness" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_686249-MLA84551597762_052025-O.webp" alt="Tatame Esteira Para Yoga Exercícios Físicos 1,80mx53cmx5mm Cor Preto" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Tatame Esteira Para Yoga Exercícios Físicos 1,80mx53cmx5mm Cor Preto</h5>
+      <p class="card-text"><strong>R$ 39.89</strong></p>
+      <a href="https://mercadolivre.com/sec/1oqCb6U" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros Esportes" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_658094-MLA84544417062_052025-O.webp" alt="Bola Yoga Suiça Pilates Abdominal Gym Ball 55cm Bomba Grátis Cor Cinza-claro" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Bola Yoga Suiça Pilates Abdominal Gym Ball 55cm Bomba Grátis Cor Cinza-claro</h5>
+      <p class="card-text"><strong>R$ 53.90</strong></p>
+      <a href="https://mercadolivre.com/sec/1jGTFKU" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_748319-MLB71390400431_082023-O-mascara-mergulho-snorkel-c-suporte-p-cmera-adulto-crianca.webp" alt="Máscara Mergulho Snorkel C/ Suporte P/ Câmera Adulto Criança" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Máscara Mergulho Snorkel C/ Suporte P/ Câmera Adulto Criança</h5>
+      <p class="card-text"><strong>R$ 74.90</strong></p>
+      <a href="https://mercadolivre.com/sec/2FYSAcF" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_698183-MLU72919055597_112023-O.webp" alt="Selim Elleven Bmx Cross Banco Bicicleta Aro 16 20 Infantil" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Selim Elleven Bmx Cross Banco Bicicleta Aro 16 20 Infantil</h5>
+      <p class="card-text"><strong>R$ 37.75</strong></p>
+      <a href="https://mercadolivre.com/sec/1DqwiRM" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Acessórios Fitness" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_730220-MLB83687708683_042025-O-garrafa-termica-generica-1l-com-termmetro-e-led-cafecha.webp" alt="Garrafa Térmica Genérica 1l Com Termômetro E Led Café/chá" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Garrafa Térmica Genérica 1l Com Termômetro E Led Café/chá</h5>
+      <p class="card-text"><strong>R$ 48.06</strong></p>
+      <a href="https://mercadolivre.com/sec/2DTUxqa" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Acessórios Fitness" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_754056-MLU74844160996_032024-O.webp" alt="Garrafa Display Térmica Aço Inox Sensor Digital Cor Dourado" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Garrafa Display Térmica Aço Inox Sensor Digital Cor Dourado</h5>
+      <p class="card-text"><strong>R$ 25.00</strong></p>
+      <a href="https://mercadolivre.com/sec/2mjw1VF" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Equipamentos de Treino" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_974596-MLB80855032601_112024-O-anilha-p-halteres-e-barras-academia-3kg-emborrachada.webp" alt="Anilha P/ Halteres E Barras Academia 3kg Emborrachada" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Anilha P/ Halteres E Barras Academia 3kg Emborrachada</h5>
+      <p class="card-text"><strong>R$ 69.90</strong></p>
+      <a href="https://mercadolivre.com/sec/13MM4Sw" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_980135-MLU74266306854_022024-O.webp" alt="Selim Para Bicicleta Com Sinalizador Em Led A92 Acte Sports" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Selim Para Bicicleta Com Sinalizador Em Led A92 Acte Sports</h5>
+      <p class="card-text"><strong>R$ 76.63</strong></p>
+      <a href="https://mercadolivre.com/sec/2YCNZEf" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Suplementos Alimentares" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_831929-MLA85099663180_052025-O.webp" alt="Creatina Monohidratada Pote 300g 100% Pura Soldiers Nutrition" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Creatina Monohidratada Pote 300g 100% Pura Soldiers Nutrition</h5>
+      <p class="card-text"><strong>R$ 42.90</strong></p>
+      <a href="https://mercadolivre.com/sec/1Q5bYxS" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Acessórios Fitness" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_938745-MLB82151874770_022025-O-800mlgarrafa-termica-agua-squeeze-inox-academiaquente-e-frio.webp" alt="800mlgarrafa Térmica Água Squeeze Inox Academiaquente E Frio" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">800mlgarrafa Térmica Água Squeeze Inox Academiaquente E Frio</h5>
+      <p class="card-text"><strong>R$ 38.34</strong></p>
+      <a href="https://mercadolivre.com/sec/2vLhJK8" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_943347-MLA79599484022_102024-O.webp" alt="Mini Compressor Digital Rezzet Bomba De Encher Pneus Portátil Para Carro Bicicleta Motocicletas Preto Com Calibrador" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Mini Compressor Digital Rezzet Bomba De Encher Pneus Portátil Para Carro Bicicleta Motocicletas Preto Com Calibrador</h5>
+      <p class="card-text"><strong>R$ 74.34</strong></p>
+      <a href="https://mercadolivre.com/sec/1RLvDCm" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Calçados Esportivos" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_773227-MLB84190246005_042025-O-tnis-masculino-leve-esportivo-sapato-confortavel-promoco.webp" alt="Tênis Masculino Leve Esportivo Sapato Confortável Promoção" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Tênis Masculino Leve Esportivo Sapato Confortável Promoção</h5>
+      <p class="card-text"><strong>R$ 66.49</strong></p>
+      <a href="https://mercadolivre.com/sec/1Qvq8Sf" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Calças e Bermudas" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_732086-MLB87026684434_072025-O-conjunto-blackout-zero-transparncia-legging-e-cropped.webp" alt="Conjunto Blackout Zero Transparência Legging E Cropped" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Conjunto Blackout Zero Transparência Legging E Cropped</h5>
+      <p class="card-text"><strong>R$ 69.52</strong></p>
+      <a href="https://mercadolivre.com/sec/28vMm98" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Acessórios Fitness" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_670135-MLB85000938003_052025-O-garrafa-termica-1200ml-isolada-a-vacuo-agua-gelada-esporte.webp" alt="Garrafa Térmica 1200ml Isolada A Vácuo Água Gelada Esporte" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Garrafa Térmica 1200ml Isolada A Vácuo Água Gelada Esporte</h5>
+      <p class="card-text"><strong>R$ 57.46</strong></p>
+      <a href="https://mercadolivre.com/sec/1w23QHU" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Suplementos Alimentares" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_808151-MLA80559783970_112024-O.webp" alt="Nutri Whey Protein Pouch Chocolate 900g Integralmédica" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Nutri Whey Protein Pouch Chocolate 900g Integralmédica</h5>
+      <p class="card-text"><strong>R$ 51.90</strong></p>
+      <a href="https://mercadolivre.com/sec/1Tmxn1v" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_775420-MLA79947519212_102024-O.webp" alt="Caixa Termica Suv Cooler Com Alça 20 Litros Praia Pesca Camping Cor Preto E Amarelo Termolar" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Caixa Termica Suv Cooler Com Alça 20 Litros Praia Pesca Camping Cor Preto E Amarelo Termolar</h5>
+      <p class="card-text"><strong>R$ 59.90</strong></p>
+      <a href="https://mercadolivre.com/sec/1QuJVxA" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_945367-MLU54977186603_042023-O.webp" alt="Mor Colchão Inflável Solteiro Com Fole Acampamento Multiuso Azul Solteiro" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Mor Colchão Inflável Solteiro Com Fole Acampamento Multiuso Azul Solteiro</h5>
+      <p class="card-text"><strong>R$ 78.90</strong></p>
+      <a href="https://mercadolivre.com/sec/1PUc1Ac" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_625786-MLB77326196566_072024-O-kit-tenis-feminino-relogio-meia-academia-corrida-treino.webp" alt="Kit Tenis Feminino + Relogio + Meia Academia Corrida Treino" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Kit Tenis Feminino + Relogio + Meia Academia Corrida Treino</h5>
+      <p class="card-text"><strong>R$ 71.79</strong></p>
+      <a href="https://mercadolivre.com/sec/2tRDV3h" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_770860-MLB79828582781_102024-O-lanterna-mais-forte-do-mundo-recarregavel-tatica-potente-t9.webp" alt="Lanterna Mais Forte Do Mundo Recarregável Tática Potente T9" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Lanterna Mais Forte Do Mundo Recarregável Tática Potente T9</h5>
+      <p class="card-text"><strong>R$ 79.00</strong></p>
+      <a href="https://mercadolivre.com/sec/1gWFjtp" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Acessórios Fitness" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_638426-MLU74988045248_032024-O.webp" alt="Garrafa térmica Termolar Lúmina Bomba de Pressão 1L" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Garrafa térmica Termolar Lúmina Bomba de Pressão 1L</h5>
+      <p class="card-text"><strong>R$ 75.78</strong></p>
+      <a href="https://mercadolivre.com/sec/1b1fuDE" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_768736-MLU74981049387_032024-O.webp" alt="Corrente Absolute 12v 126 Elos Com Power Link Bike Mtb Speed" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Corrente Absolute 12v 126 Elos Com Power Link Bike Mtb Speed</h5>
+      <p class="card-text"><strong>R$ 74.82</strong></p>
+      <a href="https://mercadolivre.com/sec/2JCy814" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Calçados Esportivos" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_958889-MLB84190551887_042025-O-tnis-feminino-academia-olymp-olimp-space-promoco-e-barato.webp" alt="Tênis Feminino Academia Olymp Olimp Space Promoção E Barato" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Tênis Feminino Academia Olymp Olimp Space Promoção E Barato</h5>
+      <p class="card-text"><strong>R$ 74.90</strong></p>
+      <a href="https://mercadolivre.com/sec/2rSHtLV" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Suplementos Alimentares" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_757501-MLA82770472561_022025-O.webp" alt="Creatina 100% Pura 150g Integralmédica" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Creatina 100% Pura 150g Integralmédica</h5>
+      <p class="card-text"><strong>R$ 35.91</strong></p>
+      <a href="https://mercadolivre.com/sec/1AQtUnj" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Suplementos Alimentares" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_678066-MLU78639489760_092024-O.webp" alt="Nutri Whey Protein Pouch Baunilha 900g Integralmédica" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Nutri Whey Protein Pouch Baunilha 900g Integralmédica</h5>
+      <p class="card-text"><strong>R$ 54.94</strong></p>
+      <a href="https://mercadolivre.com/sec/2FvTQ3i" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_779349-MLB74364934935_022024-O-fogareiro-p-camping-pesca-fogo-a-gas-portatil-1-boca.webp" alt="Fogareiro P/ Camping Pesca Fogão A Gás Portátil 1 Boca" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Fogareiro P/ Camping Pesca Fogão A Gás Portátil 1 Boca</h5>
+      <p class="card-text"><strong>R$ 78.94</strong></p>
+      <a href="https://mercadolivre.com/sec/1eeNyLZ" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Suplementos Alimentares" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_745438-MLU73580504840_122023-O.webp" alt="Creatina 100% Monohidratada 300g Nutrify" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Creatina 100% Monohidratada 300g Nutrify</h5>
+      <p class="card-text"><strong>R$ 69.80</strong></p>
+      <a href="https://mercadolivre.com/sec/25ZgNED" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_811901-MLU77606231294_072024-O.webp" alt="Colchonete Camping Fa Casal 1,90x1,30 Sacola De Transporte" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Colchonete Camping Fa Casal 1,90x1,30 Sacola De Transporte</h5>
+      <p class="card-text"><strong>R$ 58.76</strong></p>
+      <a href="https://mercadolivre.com/sec/2xspqSn" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Suplementos Alimentares" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_657396-MLA82484485604_022025-O.webp" alt="Creatina Hardcore 100% Pura 300g IntegralMédica" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Creatina Hardcore 100% Pura 300g IntegralMédica</h5>
+      <p class="card-text"><strong>R$ 59.22</strong></p>
+      <a href="https://mercadolivre.com/sec/2AKcnV3" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Calças e Bermudas" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_605719-MLB86406921106_062025-O-short-academia-feminino-poliamida-selene-zero-transparncia.webp" alt="Short Academia Feminino Poliamida Selene Zero Transparência" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Short Academia Feminino Poliamida Selene Zero Transparência</h5>
+      <p class="card-text"><strong>R$ 49.99</strong></p>
+      <a href="https://mercadolivre.com/sec/2F93gFe" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="mercado_livre">
+    <img src="https://http2.mlstatic.com/D_NQ_NP_672073-MLB83080466555_032025-O-colchonete-de-academia-d80-impermeavel-fitness-100x60x3-cm.webp" alt="Colchonete De Academia D80 Impermeável Fitness 100x60x3 Cm" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Colchonete De Academia D80 Impermeável Fitness 100x60x3 Cm</h5>
+      <p class="card-text"><strong>R$ 61.50</strong></p>
+      <a href="https://mercadolivre.com/sec/1tTmWDU" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/61rQhmvoJIL._AC_UL600_SR600,400_.jpg" alt="Vollo Sports Conjunto de Mini Faixas De Exercicio, Cinza Claro/Laranja/Cinza Escuro/Preta (pacote de 4)" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Vollo Sports Conjunto de Mini Faixas De Exercicio, Cinza Claro/Laranja/Cinza Escuro/Preta (pacote de 4)</h5>
+      <p class="card-text"><strong>R$ 54.54</strong></p>
+      <a href="https://amzn.to/4lhPHF3" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/51NUt+Vm8SL._AC_UL600_SR600,400_.jpg" alt="Hand Grip Com Mola Ajustável 5kg A 60kg Fisioterapia Fortalecimento Antebraço Mãos Punho Exercício Força" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Hand Grip Com Mola Ajustável 5kg A 60kg Fisioterapia Fortalecimento Antebraço Mãos Punho Exercício Força</h5>
+      <p class="card-text"><strong>R$ 19.53</strong></p>
+      <a href="https://amzn.to/3IdrS2A" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros Esportes" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/71wIs73znHL._AC_UL600_SR600,400_.jpg" alt="Mini Bola De Exercicios Cinza 25cm" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Mini Bola De Exercicios Cinza 25cm</h5>
+      <p class="card-text"><strong>R$ 24.90</strong></p>
+      <a href="https://amzn.to/4eyAKvA" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Equipamentos de Treino" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/51Fa82OUvxL._AC_UL600_SR600,400_.jpg" alt="Par Caneleira Tornozeleira de Peso Punch" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Par Caneleira Tornozeleira de Peso Punch</h5>
+      <p class="card-text"><strong>R$ 51.12</strong></p>
+      <a href="https://amzn.to/4nyN6rJ" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/51p9JkfMybL._AC_UL600_SR600,400_.jpg" alt="Super Band Elástico Para Exercícios Faixas Para Treinamento de Força e Resistência de Alta Intensidade e Qualidade Premium" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Super Band Elástico Para Exercícios Faixas Para Treinamento de Força e Resistência de Alta Intensidade e Qualidade Premium</h5>
+      <p class="card-text"><strong>R$ 49.90</strong></p>
+      <a href="https://amzn.to/44Nc0MO" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/51dv+WsjThL._AC_UL600_SR600,400_.jpg" alt="Hand Grip Com Mola até 60 kg Ajustável Fortalecimento Do Punho Antebraço E Mãos Força CORES SORTIDAS-ASSISTA O VIDEO-" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Hand Grip Com Mola até 60 kg Ajustável Fortalecimento Do Punho Antebraço E Mãos Força CORES SORTIDAS-ASSISTA O VIDEO-</h5>
+      <p class="card-text"><strong>R$ 29.90</strong></p>
+      <a href="https://amzn.to/4nHm9lV" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/41dvAip-VtL._AC_UL600_SR600,400_.jpg" alt="Barra P/ Flexão Exercícios Treino Regulável 62 A 100 Cm Fixa" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Barra P/ Flexão Exercícios Treino Regulável 62 A 100 Cm Fixa</h5>
+      <p class="card-text"><strong>R$ 39.50</strong></p>
+      <a href="https://amzn.to/44CO3Xn" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Equipamentos de Treino" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/31RbdBaQEtL._AC_UL600_SR600,400_.jpg" alt="POLIMET Haltere Pintado, Unissex Adulto" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">POLIMET Haltere Pintado, Unissex Adulto</h5>
+      <p class="card-text"><strong>R$ 29.90</strong></p>
+      <a href="https://amzn.to/44CNXPv" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/51jjxGw6peL._AC_UL600_SR600,400_.jpg" alt="Acte, Kit com 3 Faixas Elásticas Mini Band T71 Com Intensidades Leve Médio e Forte, Diversas Cores" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Acte, Kit com 3 Faixas Elásticas Mini Band T71 Com Intensidades Leve Médio e Forte, Diversas Cores</h5>
+      <p class="card-text"><strong>R$ 29.90</strong></p>
+      <a href="https://amzn.to/44ynra6" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/41exNTZXJJL._AC_UL600_SR600,400_.jpg" alt="Vollo Mini Faixa de Exercício" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Vollo Mini Faixa de Exercício</h5>
+      <p class="card-text"><strong>R$ 21.65</strong></p>
+      <a href="https://amzn.to/44z3XBU" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/71Lldasqy8L._AC_UL600_SR600,400_.jpg" alt="Kit 3 Elástico Faixas Extra Forte Super Band Para Exercícios" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Kit 3 Elástico Faixas Extra Forte Super Band Para Exercícios</h5>
+      <p class="card-text"><strong>R$ 80.90</strong></p>
+      <a href="https://amzn.to/3I7w8AG" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Equipamentos de Treino" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/41LoNASmQaL._AC_UL600_SR600,400_.jpg" alt="Halter Emborrachado, Polimet" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Halter Emborrachado, Polimet</h5>
+      <p class="card-text"><strong>R$ 31.27</strong></p>
+      <a href="https://amzn.to/3TVyJ31" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/514BxX8quAS._AC_UL600_SR600,400_.jpg" alt="Kit Mini Band Muvin - Faixas Elásticas Circulares Com 3 Tensões - Diferentes Intensidades de Resistência - Elásticos Para Musculação - Exercícios - Força - Treino Funcional - Academia - Ginástica" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Kit Mini Band Muvin - Faixas Elásticas Circulares Com 3 Tensões - Diferentes Intensidades de Resistência - Elásticos Para Musculação - Exercícios - Força - Treino Funcional - Academia - Ginástica</h5>
+      <p class="card-text"><strong>R$ 28.90</strong></p>
+      <a href="https://amzn.to/4koTfUu" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/317Oe6Tuk+L._AC_UL600_SR600,400_.jpg" alt="Barra Fixa Parede Crossfit Pull-up Chin-up Tríceps Paralelas" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Barra Fixa Parede Crossfit Pull-up Chin-up Tríceps Paralelas</h5>
+      <p class="card-text"><strong>R$ 145.90</strong></p>
+      <a href="https://amzn.to/40CJMlq" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/61nqbGWQzuL._AC_UL600_SR600,400_.jpg" alt="Suporte Flexão De Braço Fixo Barra Apoio Push Up Fit Pilates" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Suporte Flexão De Braço Fixo Barra Apoio Push Up Fit Pilates</h5>
+      <p class="card-text"><strong>R$ 39.15</strong></p>
+      <a href="https://amzn.to/4lDKfvM" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/613nUphelNL._AC_UL600_SR600,400_.jpg" alt="11 Peças Elástico Extensor Exercicio Funcional Até 100 libras Kit Elástico Extensor Treinamento Pilates Exercícios Academia Acessórios" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">11 Peças Elástico Extensor Exercicio Funcional Até 100 libras Kit Elástico Extensor Treinamento Pilates Exercícios Academia Acessórios</h5>
+      <p class="card-text"><strong>R$ 28.99</strong></p>
+      <a href="https://amzn.to/4lDq9BT" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros Esportes" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/41xupdY9tLL._AC_UL600_SR600,400_.jpg" alt="Acte, Par de Bolas Tonificadoras de 1Kg - Rosa" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Acte, Par de Bolas Tonificadoras de 1Kg - Rosa</h5>
+      <p class="card-text"><strong>R$ 63.66</strong></p>
+      <a href="https://amzn.to/4klQYtd" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Equipamentos de Treino" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/517+wbCGoNL._AC_UL600_SR600,400_.jpg" alt="Par Tornozeleira Caneleira Peso Academia Treino em Casa" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Par Tornozeleira Caneleira Peso Academia Treino em Casa</h5>
+      <p class="card-text"><strong>R$ 36.95</strong></p>
+      <a href="https://amzn.to/403mTHI" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/51pvcdIViiL._AC_UL600_SR600,400_.jpg" alt="Goodjobb Conjunto de Elásticos de Resistência, 5 Pcs, Fitness" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Goodjobb Conjunto de Elásticos de Resistência, 5 Pcs, Fitness</h5>
+      <p class="card-text"><strong>R$ 39.99</strong></p>
+      <a href="https://amzn.to/4nxZ8la" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/71lhd2CI6bL._AC_UL600_SR600,400_.jpg" alt="PowerBall, Fortalecedor Muscular, Automático, Para Mãos E Pulsos, Com LED, Gyro Ball, Wristball, Portátil, Marca VARENZIA" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">PowerBall, Fortalecedor Muscular, Automático, Para Mãos E Pulsos, Com LED, Gyro Ball, Wristball, Portátil, Marca VARENZIA</h5>
+      <p class="card-text"><strong>R$ 67.90</strong></p>
+      <a href="https://amzn.to/46rBZuu" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Equipamentos de Treino" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/41sBxnLGqbL._AC_UL600_SR600,400_.jpg" alt="Combo Fitness Par Halteres 01 Kg + Tornozeleira 02 Kg + Colchonete Preto + Kit 05 Elásticos Multi Tensão" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Combo Fitness Par Halteres 01 Kg + Tornozeleira 02 Kg + Colchonete Preto + Kit 05 Elásticos Multi Tensão</h5>
+      <p class="card-text"><strong>R$ 129.90</strong></p>
+      <a href="https://amzn.to/4eBMXzQ" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/51YyddigWjL._AC_UL600_SR600,400_.jpg" alt="Vollo Kit 3 Mini Faixas de Exercício" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Vollo Kit 3 Mini Faixas de Exercício</h5>
+      <p class="card-text"><strong>R$ 39.99</strong></p>
+      <a href="https://amzn.to/4nuJfvL" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/71FIA+qeAoL._AC_UL600_SR600,400_.jpg" alt="3 Faixas Hip Mini Band Tecido Elástico Premium Kit Para Exercícios Em Casa - Fisioterapia Yoga Pilates Reabilitação Academia Treino Funcional Alongamento Crossfit Ginástica Musculação Intensidades" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">3 Faixas Hip Mini Band Tecido Elástico Premium Kit Para Exercícios Em Casa - Fisioterapia Yoga Pilates Reabilitação Academia Treino Funcional Alongamento Crossfit Ginástica Musculação Intensidades</h5>
+      <p class="card-text"><strong>R$ 29.89</strong></p>
+      <a href="https://amzn.to/45S9beB" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/71BQwtJsgmL._AC_UL600_SR600,400_.jpg" alt="Kit 5 Faixas Elásticas Mini Band para Treino, Musculação, Pilates e Fisioterapia – Resistências Variadas" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Kit 5 Faixas Elásticas Mini Band para Treino, Musculação, Pilates e Fisioterapia – Resistências Variadas</h5>
+      <p class="card-text"><strong>R$ 21.90</strong></p>
+      <a href="https://amzn.to/4ewliQA" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Equipamentos de Treino" data-plataforma="amazon">
+    <img src="https://images-na.ssl-images-amazon.com/images/I/513n0kYXnBL._AC_UL600_SR600,400_.jpg" alt="Fita de Suspensão Muvin - Faixa de Resistência - Fita de Treinamento Suspenso - Elástico para Exercícios - Tamanho Ajustável e Fácil de Ancorar - Treinamento Funcional - Peso do Corpo" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Fita de Suspensão Muvin - Faixa de Resistência - Fita de Treinamento Suspenso - Elástico para Exercícios - Tamanho Ajustável e Fácil de Ancorar - Treinamento Funcional - Peso do Corpo</h5>
+      <p class="card-text"><strong>R$ 108.90</strong></p>
+      <a href="https://amzn.to/45WaNE1" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="shopee">
+    <img src="https://down-br.img.susercontent.com/file/br-11134211-7r98s-lms7etonp3au9d@resize_w450_nl.webp" alt="Máquina de cortar cabelo barbeiro dragão profissional elétrica bateria recarregável" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Máquina de cortar cabelo barbeiro dragão profissional elétrica bateria recarregável</h5>
+      <p class="card-text"><strong>R$ 20.98</strong></p>
+      <a href="https://s.shopee.com.br/20kGD1AVtU" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="shopee">
+    <img src="https://down-br.img.susercontent.com/file/sg-11134201-7ras8-maol4jy9so0gbc@resize_w450_nl.webp" alt="Creme Para Pentear Definição Natural 1kg" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Creme Para Pentear Definição Natural 1kg</h5>
+      <p class="card-text"><strong>R$ 32.90</strong></p>
+      <a href="https://s.shopee.com.br/2B3gPK9sYX" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="shopee">
+    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-lr68nerol2joe0@resize_w450_nl.webp" alt="Lixador de Pé Elétrico - Esfoliador Tira Calos Pedicure Portátil Marisa Lixa Elimina Calo Portátil Usb Pilha" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Lixador de Pé Elétrico - Esfoliador Tira Calos Pedicure Portátil Marisa Lixa Elimina Calo Portátil Usb Pilha</h5>
+      <p class="card-text"><strong>R$ 17.79</strong></p>
+      <a href="https://s.shopee.com.br/2LN6bd9FDa" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Maquiagem" data-plataforma="shopee">
+    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m3532287xiqb6b@resize_w450_nl.webp" alt="Boca Rosa Base Líquida Matte Perfect  By Payot-30ML" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Boca Rosa Base Líquida Matte Perfect  By Payot-30ML</h5>
+      <p class="card-text"><strong>R$ 22.99</strong></p>
+      <a href="https://s.shopee.com.br/2VgWnw8bsd" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Barba e Depilação" data-plataforma="shopee">
+    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m21i9ub86rfj79@resize_w450_nl.webp" alt="KIT cuidados masculinos - Barbeador e aparador de pelos Maquina cortar cabelo dragão" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">KIT cuidados masculinos - Barbeador e aparador de pelos Maquina cortar cabelo dragão</h5>
+      <p class="card-text"><strong>R$ 9.99</strong></p>
+      <a href="https://s.shopee.com.br/2fzx0F7yXg" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="shopee">
+    <img src="https://down-br.img.susercontent.com/file/br-11134258-7r98o-mbqrx9c6ujl302" alt="Lola Cosmetics Argan Oil Óleo Capilar 50ml" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Lola Cosmetics Argan Oil Óleo Capilar 50ml</h5>
+      <p class="card-text"><strong>R$ 17.90</strong></p>
+      <a href="https://s.shopee.com.br/2qJNCY7LCj" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Pele" data-plataforma="shopee">
+    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m8ntgt12y5qpae@resize_w450_nl.webp" alt="Kit 3 Unidades Sabonete Líquido Chá Branco 500 ml" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Kit 3 Unidades Sabonete Líquido Chá Branco 500 ml</h5>
+      <p class="card-text"><strong>R$ 39.90</strong></p>
+      <a href="https://s.shopee.com.br/30cnOr6hrm" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="shopee">
+    <img src="https://down-br.img.susercontent.com/file/0717fe00f09a2ef32de0e47501845889@resize_w450_nl.webp" alt="Escova Secadora Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler 110V" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Escova Secadora Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler 110V</h5>
+      <p class="card-text"><strong>R$ 49.99</strong></p>
+      <a href="https://s.shopee.com.br/3AwDbA64Wp" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Barba e Depilação" data-plataforma="shopee">
+    <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rceq-m6han6bl0x9042@resize_w450_nl.webp" alt="Kit -Barbeador-cuidados masculinos  e aparador de pelos Maquina cortar cabelo" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Kit -Barbeador-cuidados masculinos  e aparador de pelos Maquina cortar cabelo</h5>
+      <p class="card-text"><strong>R$ 9.98</strong></p>
+      <a href="https://s.shopee.com.br/3LFdnT5RBs" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="shopee">
+    <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rauo-maeh3p8exe1u5f@resize_w450_nl.webp" alt="Kit com 3 Óleos de Tratamento Coco, Super Óleos e Multibenefícios" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Kit com 3 Óleos de Tratamento Coco, Super Óleos e Multibenefícios</h5>
+      <p class="card-text"><strong>R$ 38.01</strong></p>
+      <a href="https://s.shopee.com.br/3VZ3zm4nqv" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Pele" data-plataforma="shopee">
+    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-lychllp66k11b0@resize_w450_nl.webp" alt="Protetor Solar facial PS-01 FPS 60" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Protetor Solar facial PS-01 FPS 60</h5>
+      <p class="card-text"><strong>R$ 44.09</strong></p>
+      <a href="https://s.shopee.com.br/3fsUC54AVy" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="shopee">
+    <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rcf5-m6czlz3xte6v06@resize_w450_nl.webp" alt="Cilios Fio A Fio Tufinhos Sem Nó Curvatura D 30P - Real Love" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Cilios Fio A Fio Tufinhos Sem Nó Curvatura D 30P - Real Love</h5>
+      <p class="card-text"><strong>R$ 22.99</strong></p>
+      <a href="https://s.shopee.com.br/3qBuOO3XB1" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="shopee">
+    <img src="https://down-br.img.susercontent.com/file/83e72d752c263768d72a1e8bed73fc9e@resize_w450_nl.webp" alt="Máquina De Cortar Cabelo Para Barba Masculina Designer Aleatório Elétrico Profissional" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Máquina De Cortar Cabelo Para Barba Masculina Designer Aleatório Elétrico Profissional</h5>
+      <p class="card-text"><strong>R$ 15.98</strong></p>
+      <a href="https://s.shopee.com.br/40VKah2tq4" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="shopee">
+    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-ma4a9lk23csh9a@resize_w450_nl.webp" alt="Óleo Extraordinário - Tratamento Sublime 100ml NEW HAIR | Hidrata, nutre e finaliza" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Óleo Extraordinário - Tratamento Sublime 100ml NEW HAIR | Hidrata, nutre e finaliza</h5>
+      <p class="card-text"><strong>R$ 21.49</strong></p>
+      <a href="https://s.shopee.com.br/4Aokn02GV7" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Pele" data-plataforma="shopee">
+    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-mb3znmpk4n7zb2@resize_w450_nl.webp" alt="Hidratante Labial Carmed Crystal Pink Rose Gold Dentadura Beijo Banana Beijinho Rosa Glitter" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Hidratante Labial Carmed Crystal Pink Rose Gold Dentadura Beijo Banana Beijinho Rosa Glitter</h5>
+      <p class="card-text"><strong>R$ 16.99</strong></p>
+      <a href="https://s.shopee.com.br/4L8AzJ1dAA" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="shopee">
+    <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rdw3-m034dkkhnw2p3a@resize_w450_nl.webp" alt="Escova Secadora Alisadora Elétrica Quente Cabelo com 3 em 1 Hair Styler 110v e 220v" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Escova Secadora Alisadora Elétrica Quente Cabelo com 3 em 1 Hair Styler 110v e 220v</h5>
+      <p class="card-text"><strong>R$ 47.99</strong></p>
+      <a href="https://s.shopee.com.br/4VRbBc0zpD" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Barba e Depilação" data-plataforma="shopee">
+    <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rceq-m6han6bl0x9042@resize_w450_nl.webp" alt="Kit -Barbeador-cuidados masculinos  e aparador de pelos Maquina cortar cabelo" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Kit -Barbeador-cuidados masculinos  e aparador de pelos Maquina cortar cabelo</h5>
+      <p class="card-text"><strong>R$ 9.88</strong></p>
+      <a href="https://s.shopee.com.br/4fl1Nv0MUG" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="shopee">
+    <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m7acy8b4sqbwb1@resize_w450_nl.webp" alt="Kit Máscara Karseell 500g + Óleo Karseell 60ml" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Kit Máscara Karseell 500g + Óleo Karseell 60ml</h5>
+      <p class="card-text"><strong>R$ 28.80</strong></p>
+      <a href="https://s.shopee.com.br/4q4RaDzj9J" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="shopee">
+    <img src="https://down-br.img.susercontent.com/file/sg-11134207-7rfgf-m3q208d38w26ce@resize_w450_nl.webp" alt="JBSARA Soro Renovador De retinol 1ml Envio Da Coreia" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">JBSARA Soro Renovador De retinol 1ml Envio Da Coreia</h5>
+      <p class="card-text"><strong>R$ 5.00</strong></p>
+      <a href="https://s.shopee.com.br/50NrmWz5oM" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 mb-4">
+  <div class="produto-card card" data-subcategoria="Outros" data-plataforma="shopee">
+    <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rd4k-lu13b4mlgfsh0d@resize_w450_nl.webp" alt="Kit 13 Pçs Pincéis De Maquiagem Contorno Kabuki Profissional" class="produto-img card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">Kit 13 Pçs Pincéis De Maquiagem Contorno Kabuki Profissional</h5>
+      <p class="card-text"><strong>R$ 12.96</strong></p>
+      <a href="https://s.shopee.com.br/5AhHypySTP" target="_blank" class="btn btn-warning w-100">Comprar Agora</a>
     </div>
   </div>
 </div>
