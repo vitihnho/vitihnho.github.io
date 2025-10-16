@@ -97,6 +97,23 @@
       transition: 0.3s;
     }
 
+        /* Centraliza e melhora a responsividade dos filtros */
+    .filtros-avancados {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Centraliza horizontalmente */
+      align-items: center;
+      gap: 10px;
+      padding: 20px;
+    }
+
+    /* Cada campo ocupa largura proporcional e se ajusta no mobile */
+    .filtros-avancados .input-group,
+    .filtros-avancados select {
+      min-width: 160px;
+      flex: 1 1 200px;
+    }
+
     .filtros button:hover, .filtros .ativo {
       background: #FF6600;
       color: white;
@@ -249,7 +266,7 @@
   </div>
 
   <!-- Filtros Avançados -->
-  <div class="row g-3 align-items-center">
+  <div class="filtros-avancados">
     <div class="col-md-3">
       <div class="input-group">
         <span class="input-group-text bg-white">🔍</span>
