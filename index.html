@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -113,7 +112,6 @@
     }
 
     .produto-card {
-      width: 250px;
       background-color: #fff;
       border-radius: 16px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.08);
@@ -136,14 +134,6 @@
       margin-bottom: 12px;
     }
 
-    .produto-card h3 {
-      font-size: 1rem;
-      margin-bottom: 5px;
-      height: 40px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
     .produto-info {
       flex-grow: 1;
       display: flex;
@@ -155,7 +145,7 @@
     .produto-info h3 {
       font-size: 1rem;
       font-weight: 500;
-      min-height: 48px; /* Garante altura uniforme */
+      min-height: 48px;
       margin-bottom: 8px;
     }
 
@@ -164,12 +154,6 @@
       font-weight: bold;
       color: #333;
       margin-bottom: 12px;
-    }
-
-    .produto-card p {
-      font-size: 0.9rem;
-      margin-bottom: 10px;
-      min-height: 22px;
     }
 
     .btn-comprar {
@@ -186,22 +170,6 @@
       background-color: #e65c00;
     }
 
-    .grupo-icon {
-      position: absolute;
-      top: 1rem;
-      right: 1rem;
-    }
-
-    .grupo-icon a {
-      color: #25D366;
-      font-size: 1.8rem;
-      transition: transform 0.2s ease;
-    }
-
-    .grupo-icon a:hover {
-      transform: scale(1.15);
-    }
-
     .footer {
       text-align: center;
       font-size: 0.85rem;
@@ -210,6 +178,33 @@
       padding: 2rem 1rem;
       background-color: #f1f1f1;
       border-top: 2px solid #ffc107;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+      }
+      .filtros {
+        padding: 20px;
+      }
+      .produto-card {
+        padding: 12px;
+      }
+      .produto-card img {
+        height: 150px;
+      }
+      .hero {
+        padding: 60px 10px;
+      }
+      .hero h1 {
+        font-size: 1.8rem;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
     }
 
   </style>
@@ -307,7 +302,7 @@
   </div>
 </section>
 
-<section class="produto-grid" id = "produtos">
+<section class="produto-grid" id="produtos">
   
 <div class="produto-card" data-subcategoria = "Outros" data-departamento = "Beleza e Cuidado" data-plataforma = "mercado_livre">
   <img src="https://http2.mlstatic.com/D_NQ_NP_2X_672129-MLA94692100474_102025-F.webp" alt="Chapinha Lizze Profissional 480 Extreme">
