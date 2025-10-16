@@ -143,10 +143,15 @@
     }
 
     .produto-info h3 {
-      font-size: 1rem;
-      font-weight: 500;
-      min-height: 48px;
-      margin-bottom: 8px;
+        font-size: 1rem;
+        font-weight: 500;
+        min-height: 48px;
+        margin-bottom: 8px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2; /* número de linhas visíveis */
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
     }
 
     .produto-info .preco {
