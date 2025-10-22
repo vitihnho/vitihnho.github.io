@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     cards.forEach(card => {
       const tituloEl = card.querySelector("h3") || card.querySelector(".card-title");
-      const precoEl = card.querySelector("p") || card.querySelector(".card-text");
+      const precoEl = card.querySelector(".preco");
 
       const titulo = tituloEl?.innerText?.toLowerCase() || "";
       const precoTexto = precoEl?.innerText.replace("R$", "").trim() || "0";
