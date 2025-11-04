@@ -220,29 +220,36 @@
       border-top: 2px solid #ffc107;
     }
 
-    /* Responsividade aprimorada */
+        /* RESPONSIVIDADE MELHORADA */
     @media (max-width: 768px) {
+      /* Cabeçalho compacto */
       header {
-        flex-direction: column;
-        text-align: center;
-        gap: 6px;
-        padding: 10px 12px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 14px;
+        background: #111;
+        display: flex;
       }
 
       header h1 {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+        margin: 0;
       }
 
-      header p {
-        font-size: 0.85rem;
-      }
-
+      header p,
+      .hero,
       .filtros {
-        padding: 10px;
+        display: none; /* esconde subtítulo, hero e filtros no mobile */
+      }
+
+      .whatsapp-icon {
+        display: inline-block;
+        font-size: 1.4rem;
       }
 
       .produto-grid {
-        grid-template-columns: repeat(2, 1fr); /* exibe 2 produtos por linha no celular */
+        grid-template-columns: repeat(2, 1fr); /* 2 produtos por linha */
         gap: 12px;
         padding: 10px;
       }
@@ -251,37 +258,22 @@
         padding: 10px;
       }
 
-      .produto-card img {
+      .produto-card img }
         height: 130px;
-      }
-
-      .hero {
-        padding: 40px 10px;
-      }
-
-      .hero h1 {
-        font-size: 1.6rem;
-      }
-
-      .hero p {
-        font-size: 0.95rem;
       }
     }
 
-    /* Exibe 3 a 4 produtos em tablets */
     @media (min-width: 769px) and (max-width: 1024px) {
       .produto-grid {
         grid-template-columns: repeat(3, 1fr);
       }
     }
 
-    /* Exibe 4 produtos em telas maiores */
     @media (min-width: 1025px) {
       .produto-grid {
         grid-template-columns: repeat(4, 1fr);
       }
     }
-
   </style>
 </head>
 
@@ -300,13 +292,6 @@
   <nav>
     <a href="https://chat.whatsapp.com/Lckq2NTpiNGLokKJxfgv9h" 
        title="Entrar no grupo do WhatsApp"
-       style="color: #25D366; font-size: 1.5rem;">
-      <i class="bi bi-whatsapp"></i>
-    </a>
-  </nav>
-  <nav>
-    <a href="https://chat.whatsapp.com/Lckq2NTpiNGLokKJxfgv9h" 
-       title="Acesso os cupons"
        style="color: #25D366; font-size: 1.5rem;">
       <i class="bi bi-whatsapp"></i>
     </a>
@@ -397,13 +382,13 @@
 </div>
 
 <div class="produto-card" data-subcategoria="Perfumes" data-departamento="Beleza e Cuidado" data-plataforma="mercado_livre">
-  <img src="https://http2.mlstatic.com/D_NQ_NP_2X_725580-MLA84545221476_052025-F.webp" alt="Egeo Bomb Black Desodorante Colônia 90 ML">
+  <img src="https://http2.mlstatic.com/D_NQ_NP_2X_974561-MLA96651080442_112025-F.webp" alt="Perfume Asad Bourbon Lattafa 100ml Alta Fixação">
   <div class="produto-info">
-    <h3>Egeo Bomb Black Desodorante Colônia 90 ML</h3>
-    <p class="preco-antigo"><span class="preco-antigo">De R$ 154.90</span></p>
-    <p class="preco">R$ 76.90</p>
-    <p class="text-success">Economize R$78.00!</p>
-    <a href="https://mercadolivre.com/sec/2R2Tr3w" class="btn-comprar" target="_blank">Comprar Agora</a>
+    <h3>Perfume Asad Bourbon Lattafa 100ml Alta Fixação</h3>
+    <p class="preco-antigo"><span class="preco-antigo">De R$ 312.90</span></p>
+    <p class="preco">R$ 259.71</p>
+    <p class="text-success">Economize R$53.19!</p>
+    <a href="https://mercadolivre.com/sec/1MUNJ9u" class="btn-comprar" target="_blank">Comprar Agora</a>
   </div>
 </div>
 
