@@ -6,14 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const filtroPlataforma = document.getElementById("filtroPlataforma");
   const botoesDepartamento = document.querySelectorAll(".filtros button");
   const subcategoriasPorDepartamento = {
-
     "Beleza e Cuidados": ["Cabelos", "Pele", "Maquiagem", "Unhas", "Barba e Depilação", "Perfumes"],
     "Fitness": ["Roupas Fitness","Calçados Esportivos","Acessórios de Treino","Equipamentos Fitness","Suplementos Alimentares","Outros Esportes"],
     "Casa e Decoração": ["Organização e Armazenamento","Iluminação","Cozinha e Utensílios","Limpeza e Utilidades","Decoração"],
     "Pet": ["Rações","Acessórios Pet","Brinquedos Pet","Higiene e Cuidados","Saúde Animal"],
     "Tecnologia": ["Celulares e Smartphones","Fones e Áudio","Acessórios para Celular","Notebooks e Informática","Periféricos","Acessórios Gamer","Televisão"],
     "Moda e Acessórios": ["Roupas Femininas","Roupas Masculinas","Calçados","Bolsas e Mochilas","Óculos e Acessórios"]
-
   };
 
   let departamentoSelecionado = "";
@@ -87,22 +85,17 @@ document.addEventListener("DOMContentLoaded", () => {
     optionDefault.textContent = "Todas as subcategorias";
     selectSubcategoria.appendChild(optionDefault);
 
-    // Coleta os cards visíveis no DOM
     const cards = document.querySelectorAll(".produto-card");
-
     const subcategoriasDisponiveis = new Set();
 
     cards.forEach(card => {
       const cardDepartamento = card.getAttribute("data-departamento");
       const subcat = card.getAttribute("data-subcategoria");
-
-      // Se não há departamento selecionado, coleta tudo
       if (!departamento || departamento === "" || cardDepartamento === departamento) {
         if (subcat) subcategoriasDisponiveis.add(subcat);
       }
     });
 
-    // Preenche apenas as subcategorias que realmente têm produtos
     [...subcategoriasDisponiveis].sort().forEach(subcat => {
       const option = document.createElement("option");
       option.value = subcat;
@@ -111,12 +104,26 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-
-
   // Eventos de input dos filtros tradicionais
   filtroNome?.addEventListener("input", aplicarFiltros);
   filtroPrecoMin?.addEventListener("input", aplicarFiltros);
   filtroPrecoMax?.addEventListener("input", aplicarFiltros);
   filtroSubcategoria?.addEventListener("change", aplicarFiltros);
   filtroPlataforma?.addEventListener("change", aplicarFiltros);
+
+  // 🔹 Função para abrir o grupo do WhatsApp com fallback automático
+  window.enterGroup = function() {
+    const isPC = window.innerWidth > 1024;
+    const codigo = "Lckq2NTpiNGLokKJxfgv9h"; // troque aqui pelo seu código real
+
+    const url = isPC
+      ? `https://web.whatsapp.com/accept?code=${codigo}`
+      : `https://chat.whatsapp.com/${codigo}`;
+
+    // tenta abrir o app
+    window.location.href = `whatsapp://chat/?code=${codigo}`;
+
+    // se falhar (ex: desktop sem app), abre versão web após 500ms
+    setTimeout(() => (window.location.href = url), 500);
+  };
 });
