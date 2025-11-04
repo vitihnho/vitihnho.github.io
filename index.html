@@ -220,30 +220,65 @@
       border-top: 2px solid #ffc107;
     }
 
-    /* Responsividade */
+    /* Responsividade aprimorada */
     @media (max-width: 768px) {
       header {
         flex-direction: column;
         text-align: center;
-        gap: 10px;
+        gap: 6px;
+        padding: 10px 12px;
       }
+
+      header h1 {
+        font-size: 1.1rem;
+      }
+
+      header p {
+        font-size: 0.85rem;
+      }
+
       .filtros {
-        padding: 20px;
+        padding: 10px;
       }
+
+      .produto-grid {
+        grid-template-columns: repeat(2, 1fr); /* exibe 2 produtos por linha no celular */
+        gap: 12px;
+        padding: 10px;
+      }
+
       .produto-card {
-        padding: 12px;
+        padding: 10px;
       }
+
       .produto-card img {
-        height: 150px;
+        height: 130px;
       }
+
       .hero {
-        padding: 60px 10px;
+        padding: 40px 10px;
       }
+
       .hero h1 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
       }
+
       .hero p {
-        font-size: 1rem;
+        font-size: 0.95rem;
+      }
+    }
+
+    /* Exibe 3 a 4 produtos em tablets */
+    @media (min-width: 769px) and (max-width: 1024px) {
+      .produto-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    /* Exibe 4 produtos em telas maiores */
+    @media (min-width: 1025px) {
+      .produto-grid {
+        grid-template-columns: repeat(4, 1fr);
       }
     }
 
@@ -351,13 +386,13 @@
 <section class="produto-grid" id="produtos">
   
 <div class="produto-card" data-subcategoria="Perfumes" data-departamento="Beleza e Cuidado" data-plataforma="mercado_livre">
-  <img src="https://http2.mlstatic.com/D_NQ_NP_2X_783722-MLA84850945885_052025-F.webp" alt="Egeo Spicy Vibe Colônia 90ml">
+  <img src="https://http2.mlstatic.com/D_NQ_NP_2X_658469-MLB89641873920_082025-F.webp" alt="Perfume Lattafa Asad 100ml Edp Lattafa Original Nota Fiscal">
   <div class="produto-info">
-    <h3>Egeo Spicy Vibe Colônia 90ml</h3>
-    <p class="preco-antigo"><span class="preco-antigo">De R$ 154.90</span></p>
-    <p class="preco">R$ 84.90</p>
-    <p class="text-success">Economize R$70.00!</p>
-    <a href="https://mercadolivre.com/sec/1z4fi7s" class="btn-comprar" target="_blank">Comprar Agora</a>
+    <h3>Perfume Lattafa Asad 100ml Edp Lattafa Original Nota Fiscal</h3>
+    <p class="preco-antigo"><span class="preco-antigo">De R$ 299.90</span></p>
+    <p class="preco">R$ 197.36</p>
+    <p class="text-success">Economize R$102.54!</p>
+    <a href="https://mercadolivre.com/sec/2gtsqBD" class="btn-comprar" target="_blank">Comprar Agora</a>
   </div>
 </div>
 
